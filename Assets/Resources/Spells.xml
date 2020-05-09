@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<spells>
+  <spell name="Aid">
+    <level>1</level>
+    <description>You help another with your magic.</description>
+  </spell>
+</spells>

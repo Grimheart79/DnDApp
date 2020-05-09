@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 68d96833cf3b19d4493e7e458011a5e4
+timeCreated: 1474193166
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Berry Rotunda
+  fontNames:
+  - Berry Rotunda
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

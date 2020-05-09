@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ItemCollection>
+  <Items>
+    <Item name ="Abacus">
+      <Cost>"2gp"</Cost>
+      <Weight>2</Weight>
+      <Description>A counting device.</Description>
+    </Item>
+    
+    <Item name ="Acid (vial)">
+      <Cost>"25gp"</Cost>
+      <Weight>1</Weight>
+      <Description>
+        "As an action, you can splash the contents of this
+        vial onto a creature within 5 feet of you or throw the vial
+        up to 20 feet, shattering it on impact. In either case, make
+        a ranged attack against a creature or object, treating the
+        acid as an improvised weapon. On a hit, the target takes
+        2d6 acid damage."
+      </Description>
+    </Item>
+    
+    <Item name ="Alchemist's fire (flask)">
+      <Cost>"50gp"</Cost>
+      <Weight>1</Weight>
+      <Description>
+        "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. 
+        Make a ranged attack against a creature or object, treating the alchemist’s fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns.
+        A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+      </Description>
+    </Item>
+    
+    <Item name ="Ammunition - arrows (20)">
+      <Cost>"1gp"</Cost>
+      <Weight>1</Weight>
+      <Description>
+        "Normal wooden arrows - quiver not included."
+      </Description>
+    </Item>
+    
+    <Item name ="Ammunition - blogun needles (50)">
+      <Cost>"1gp"</Cost>
+      <Weight>1.5</Weight>
+      <Description>
+        "Blogun needles in a small leather pouch."
+      </Description>
+    </Item>
+    
+    <Item name ="Ammunition - crossbow bolts (20)">
+      <Cost>"25gp"</Cost>
+      <Weight>1.5</Weight>
+      <Description>
+        "Normal wooden bolts - quiver not included."
+      </Description>
+    </Item>
+    
+    <Item name ="Ammunition - sling bullets (20)">
+      <Cost>"4cp"</Cost>
+      <Weight>1.5</Weight>
+      <Description>
+        "A small leather pouch that contains normal spherical metal balls."
+      </Description>
+    </Item>
+    
+    <Item name ="Antitoxin (vial)">
+      <Cost>"50gp"</Cost>
+      <Weight>.1</Weight>
+      <Description>
+        "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour.
+        It confers no benefit to undead or constructs."
+      </Description>
+    </Item>
+    
+   
+  </Items>
+  
+</ItemCollection>

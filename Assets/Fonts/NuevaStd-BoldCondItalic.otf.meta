@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 172bafa9f1fd37449a591ad11be9fa6b
+timeCreated: 1520984793
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Nueva Std
+  fontNames:
+  - Nueva Std
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0ce09257fe4fe4244b15aba83b405daa, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

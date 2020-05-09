@@ -1,0 +1,6762 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 440342cd51a24f345ab6c05346c5338b, type: 3}
+  m_Name: MM
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/MM.xlsx
+  WorksheetName: MM
+  dataArray:
+  - name: Aarakocra
+    alphabeticalname: Aarakocra
+    book: MM 12
+    group: NA
+    challenge: 1/4
+    creaturesize: M
+    creaturealignment: NG
+    creaturetype: humanoid
+    ac: 12
+    armournotes: NA
+    hp: 13
+    hd: 3d8
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 20, fly 50
+    str: 10
+    dex: 14
+    con: 10
+    intel: 11
+    wis: 12
+    cha: 11
+    senses: NA
+    passiveperception: 15
+    languages: Auran
+    skills: NA
+    notes: <b>Dive Attack.</b> If the aaroakocra is flying and sives at least 30 feet
+      straight toward a target and then hits it with a melee weapon attack, the attack
+      gains +3 (d6) damage.
+    actions: '<b>Talon.</b> Melee Weapon Attack: +4 to hit, reach 5, one target. Hit:
+      4 (ld4 + 2) slashing damage.
+
+
+      <b>Javelin.</b> Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range
+      30/120, one target. Hit: 5 (1d6 + 2) piercing damage.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Aboleth
+    alphabeticalname: Aboleth
+    book: MM 13
+    group: NA
+    challenge: 10
+    creaturesize: L
+    creaturealignment: LE
+    creaturetype: aberration
+    ac: 17
+    armournotes: natural armor
+    hp: 135
+    hd: 18d10+36
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 10, swim 40
+    str: 21
+    dex: 9
+    con: 15
+    intel: 18
+    wis: 15
+    cha: 18
+    senses: Darkvision 120.
+    passiveperception: 20
+    languages: Deep Speech, telepathy 120
+    skills: History 12, Perception 10
+    notes: '<b>Amphibious.</b> The aboleth can breathe air and water.
+
+
+      <b>Mucous Cloud.</b> While underwater, the aboleth is surrounded by transformative
+      mucus. A creature that touches the aboleth or that hits it with a melee attack
+      while within 5 feet of it must make a DC 14 Constitution saving throw. On a
+      failure, the creature is diseased for 1d4 hours. The diseased creature can breathe
+      only underwater.
+
+
+      <b>Probing Telepathy.</b> If a creature communicates telepathically with the
+      aboleth, the aboleth learns the creature''s greatest desires if the aboleth
+      ca n see the creature.
+
+'
+    actions: "<b>Multiattack.</b> The aboleth makes three tentacle attacks.\n\n<b>Tentacle.</b>
+      Melee Weapon Attack: +9 to hit, reach 10, one target. Hit: 12 (2d6 + 5) bludgeoning
+      damage. If the target is a creature, it must succeed on a DC 14 Constitution
+      saving throw can be removed by any magic that cures disease. After 1 minute,
+      the diseased creature's skin becomes translucent and slimy, the creature can't
+      regain hit points unless it is underwater, and the disease can be removed only
+      by heal or another disease-curing spell of 6th level or higher. When the creature
+      is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless
+      moisture is applied to the skin before 10 minutes have passed.\n\n<b>Tail.</b>
+      Melee Weapon Attack: +9 to hit, reach 10, one target. Hit: 15 (3d6 + 5) bludgeoning
+      damage.\n \n<b>Enslave (3/Day).</b> The aboleth targets one creature it can
+      see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw
+      or be magically charmed by the aboleth until the aboleth dies or until it is
+      on a different plane of existence from the target. The charmed target is under
+      the aboleth's control and can't take reactions, and the aboleth and the target
+      can communicate telepathically with each other over any distance. Whenever the
+      charmed target takes damage, the target can repeat the saving throw. On a success,
+      the effect ends. No more than once every 24 hours, the target can also repeat
+      the saving throw when it is at least 1 mile away from the aboleth."
+    reactions: NA
+    legendaryactions: "The aboleth can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature's turn. The aboleth regains spent legendary actions
+      at the start of its turn. \n\n<b> Detect.</b> The aboleth makes a Wisdom (Perception)
+      check.\n\n<b> Tail Swipe.</b> The aboleth makes one tail attack.\n\n<b> Psychic
+      Drain (Costs 2 Actions).</b> One creature charmed by the aboleth takes 10 (3d6)
+      psychic damage, and the aboleth regains hit points equal to the damage the creature
+      takes."
+  - name: Deva
+    alphabeticalname: Angel, Deva
+    book: MM 16
+    group: Angel
+    challenge: 10
+    creaturesize: M
+    creaturealignment: LG
+    creaturetype: celestial
+    ac: 17
+    armournotes: natural armor
+    hp: 136
+    hd: 16d8+64
+    saves: Wis 9, Cha 9
+    damagevulnerabilities: NA
+    damageresistances: Radiant; bludgeoning, slashing, piercing from non-magical weapons
+    damageimmunities: NA
+    conditionimmunities: Charmed, exhaustion, frightened
+    speed: 30, 90 fly
+    str: 18
+    dex: 18
+    con: 18
+    intel: 17
+    wis: 20
+    cha: 20
+    senses: Darkvision 120.
+    passiveperception: 19
+    languages: All, telepathy 120
+    skills: Insight 7, Perception 9
+    notes: "<b>Angelic Weapons.</b> The deva's weapon attacks are magical. When the
+      deva hits with any weapon, the weapon deals an extra 4d8 radiant damage (included
+      in the attack).\n \n<b>Innate Spellcasting.</b> The deva's spellcasting ability
+      is Charisma (spell save DC 17). The deva can innately cast the following spells,
+      requiring only verbal components: \nAt will: detect evil and good 1Jday each:
+      commune, raise dead.\n\n<b>Magic Resistance.</b> The deva has advantage on saving
+      throws against spells and other magical effects."
+    actions: "<b>Multiattack.</b> The deva makes two melee attacks. \n\n<b>Mace.</b>
+      Melee Weapon Attack: +8 to hit, reach 5, one target. Hit: 7 (1d6 + 4) bludgeoning
+      damage plus 18 (4d8) radiant damage. \n\n<b>Healing Touch (3/Day).</b> The deva
+      touches another creature. The target magically regains 20 (4d8 + 2) hit points
+      and is freed from any curse, disease, poison, blindness, or deafness. \n\n<b>Change
+      Shape. The deva magically polymorphs into a humanoid or beast that has a challenge
+      rating equal to or less than its own, or back into its true form. It reverts
+      to its true form if it dies. Any equipment it is wearing or carrying is absorbed
+      or borne by the new form (the deva's choice). In a new form, the deva retains
+      its game statistics and ability to speak, but its AC, movement modes, Strength,
+      Dexterity, and special senses are replaced by those of the new form, and it
+      gains any statistics and capabilities (except class features, legendary actions,
+      and lair actions) that the new form has but that it lacks.\n"
+    reactions: NA
+    legendaryactions: NA
+  - name: Planetar
+    alphabeticalname: Angel, Planetar
+    book: MM 17
+    group: Angel
+    challenge: 16
+    creaturesize: L
+    creaturealignment: LG
+    creaturetype: celestial
+    ac: 19
+    armournotes: natural armor
+    hp: 200
+    hd: 16d10+112
+    saves: Con 12, Wis 11, Cha12
+    damagevulnerabilities: NA
+    damageresistances: Radiant; bludgeoning, slashing, piercing from non-magical weapons
+    damageimmunities: NA
+    conditionimmunities: Charmed, exhaustion, frightened
+    speed: 40, 120 fly
+    str: 24
+    dex: 20
+    con: 24
+    intel: 19
+    wis: 22
+    cha: 25
+    senses: Truesight 120
+    passiveperception: 21
+    languages: All, telepathy 120
+    skills: Perception 11
+    notes: "<b>Angelic Weapons.</b> The planetar's weapon attacks are magical. When
+      the planetar hits with any weapon, the weapon deals an extra 5d8 radiant damage
+      (included in the attack).\n\n<b>Divine Awareness.</b> The planetar knows if
+      it hears a lie.\n\n<b>Innate Spellcasting.</b> The planetar's spellcasting ability
+      is Charisma (spell save DC 20). The planetar can innately cast the following
+      spells, requiring no material components: \nAt will: detect evil and good, invisibility
+      (self only)\n3/day each: blade barrier, dispel evil and good, flame strike,
+      raise dead\n1/day each: commune, control weather, insect plague \n\n<b>Magic
+      Resistance.</b> The planetar has advantage on saving throws against spells and
+      other magical effects.\n"
+    actions: '<b>Multiattack.</b> The planetar makes two melee attacks.
+
+
+      <b>Greatsword.</b> Melee Weapon Attack: +12 to hit, reach 5, one target. Hit:
+      21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage.
+
+
+      <b>Healing Touch (4/Day).</b> The planetar touches another creature. The target
+      magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease,
+      poison, blindness, or deafness.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Solar
+    alphabeticalname: Angel, Solar
+    book: MM 18
+    group: Angel
+    challenge: 21
+    creaturesize: L
+    creaturealignment: LG
+    creaturetype: celestial
+    ac: 21
+    armournotes: natural armor
+    hp: 243
+    hd: 18d10+144
+    saves: Int 14, Wis 14, Cha 17
+    damagevulnerabilities: NA
+    damageresistances: Radiant; bludgeoning, slashing, piercing from non-magical weapons
+    damageimmunities: Necrotic, poison
+    conditionimmunities: Charmed, exhaustion, frightened, poisoned
+    speed: 50, 150 fly
+    str: 26
+    dex: 22
+    con: 26
+    intel: 25
+    wis: 25
+    cha: 30
+    senses: Truesight 120
+    passiveperception: 24
+    languages: All, telepathy 120
+    skills: Perception 14
+    notes: "<b>Angelic Weapons.</b> The solar's weapon attacks are magical. When the
+      solar hits with any weapon, the weapon deals an extra 6d8 radiant damage (included
+      in the attack).\n\n<b>Divine Awareness.</b> The solar knows if it hears a lie.
+      \n\n<b>Innate Spellcasting.</b> The solar's spellcasting ability is Charisma
+      (spell save DC 25). It can innately cast the following spells, requiring no
+      material components: \nAt will: detect evil and good, invisibility (self only)
+      3fday each: blade barrier, dispel evil and good, resurrection 1/day each: commune,
+      control weather \n\n<b>Magic Resistance.</b> The solar has advantage on saving
+      throws against spells and other magical effects."
+    actions: "<b>Multiattack.</b> The solar makes two greatsword attacks.\n\n<b>Greatsword.</b>
+      Melee Weapon Attack: +15 to hit, reach 5, one. target. Hit: 22 (4d6 + 8) slashing
+      damage plus 27 (6d8) radiant damage.\n \n<b>Slaying Longbow.</b> Ranged Weapon
+      Attack: +13 to hit, range 120/600 ft., one target. Hit: 15 (2d8 + 6) piercing
+      damage plus 27 (6d8) radiant damage. If the target is a creature that has 190
+      hit points or fewer, it must succeed on a DC 15 Constitution saving throw or
+      die.\n \n<b>Flying Sword.</b> The solar releases its greatsword to hover magically
+      in an unoccupied space within 5 feet of it. If the solar can see the sword,
+      the solar can mentally command it as a bonus action to fly up to 50 feet and
+      either make one attack against a target or return to the solar's hands. If the
+      hovering sword is targeted by any effect, the solar is considered to be holding
+      it. The hovering sword falls if the solar dies.\n \n<b>Healing Touch (4/Day).</b>
+      The solar touches another creature. The target magically regains 40 (8d8 + 4)
+      hit points and is freed from any curse, disease, poison, blindness, or deafness. "
+    reactions: NA
+    legendaryactions: 'The solar can take 3 legendary actions, choosing from the options
+      below. Only one legendary action option can be used at a time and only at the
+      end of another creature''s turn. The solar regains spent legendary actions at
+      the start of its turn.
+
+
+      <b>Teleport.</b> The solar magically teleports, along with any equipment it
+      is wearing or carrying, up to 120 feet to an unoccupied space it can see.
+
+
+      <b>Searing Burst (Costs 2 Actions).</b> The solar emits magical, divine energy.
+      Each creature of its choice in a 10-foot radius must make a DC 23 Dexterity
+      saving throw, taking 14 (4d6) fire damage plus 14 (4d6) radiant damage on a
+      failed save, or half as much damage on a successful one.
+
+
+      <b>Blinding Gaze (Costs 3 Actions).</b> The solar targets one creature it can
+      see within 30 feet of it. If the target can see it, the target must succeed
+      on a DC 15 Constitution saving throw or be blinded until magic such as the lesser
+      restoration spell removes the blindness.'
+  - name: Animated Armour
+    alphabeticalname: Animated Armour
+    book: MM 19
+    group: Animated Object
+    challenge: 1
+    creaturesize: M
+    creaturealignment: Unaligned
+    creaturetype: construct
+    ac: 18
+    armournotes: natural armor
+    hp: 33
+    hd: 6d8+6
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: Poison, psychic
+    conditionimmunities: Blinded, charmed, deafened, exhaustion, frightened, paralyzed,
+      petrified, poisoned
+    speed: 25
+    str: 14
+    dex: 11
+    con: 13
+    intel: 1
+    wis: 3
+    cha: 1
+    senses: Blindsight 60 (blind beyond this radius)
+    passiveperception: 6
+    languages: NA
+    skills: NA
+    notes: "<b>Antimagic Susceptibility.</b> The armor is incapacitated while in the
+      area of an antimagic field. If targeted by dispel magic, the armor must succeed
+      on a Constitution saving throw against the caster's spell save DC or fall unconscious
+      for 1 minute.\n \n<b>False Appearance.</b> While the armor remains motionless,
+      it is indistinguishable from a normal suit of armor.\n"
+    actions: '<b>Multiattack.</b> The armor makes two melee attacks.
+
+
+      <b>Slam.</b> Melee Weapon Attack: +4 to hit, reach 5, one target. Hit: 5 (1d6
+      + 2) bludgeoning damage.'
+    reactions: NA
+    legendaryactions: 
+  - name: Flying Sword
+    alphabeticalname: Flying Sword
+    book: MM 20
+    group: Animated Object
+    challenge: 1/4
+    creaturesize: S
+    creaturealignment: Unaligned
+    creaturetype: construct
+    ac: 17
+    armournotes: natural armor
+    hp: 17
+    hd: 5d6
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: Poison, psychic
+    conditionimmunities: Blinded, charmed, deafened, exhaustion, frightened, paralyzed,
+      petrified, poisoned
+    speed: 50 fly
+    str: 12
+    dex: 15
+    con: 11
+    intel: 1
+    wis: 5
+    cha: 1
+    senses: Blindsight 60 (blind beyond this radius)
+    passiveperception: 0
+    languages: NA
+    skills: NA
+    notes: "<b>Antimagic Susceptibility.</b> The sword is incapacitated while in the
+      area of an antimagic field. if targeted by dispel magic, the sword must succeed
+      on a Constitution saving throw against the caster's spell save DC or fall unconscious
+      for 1 minute. \n\n<b>False Appearance.</b> While the sword remains motionless
+      and isn't flying, it is indistinguishable from a normal sword."
+    actions: '<b>Longsword.</b> Melee: +3 attack, reach 5, 1 target. Hit: 5 (d8+1)
+      slash'
+    reactions: NA
+    legendaryactions: NA
+  - name: Rug of Smothering
+    alphabeticalname: Rug of Smothering
+    book: MM 20
+    group: Animated Object
+    challenge: 2
+    creaturesize: L
+    creaturealignment: Unaligned
+    creaturetype: construct
+    ac: 12
+    armournotes: NA
+    hp: 33
+    hd: 6d10
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: Poison, psychic
+    conditionimmunities: Blinded, charmed, deafened, exhaustion, frightened, paralyzed,
+      petrified, poisoned
+    speed: 10
+    str: 17
+    dex: 14
+    con: 10
+    intel: 1
+    wis: 3
+    cha: 1
+    senses: Blindsight 60 (blind beyond this radius)
+    passiveperception: 6
+    languages: NA
+    skills: NA
+    notes: '<b>Antimagic Susceptibility.</b> The rug is incapacitated while in the
+      area of an anti magic field. If targeted by dispel magic, the rug must succeed
+      on a Constitution saving throw against the caster''s spell save DC or fall unconscious
+      for 1 minute.
+
+
+      <b>Damage Transfer.</b> While it is grappling a creature, the rug takes only
+      half the damage dealt to it, and the creature grappled by the rug takes the
+      other half.
+
+
+      <b>False Appearance.</b> While the rug remains motionless, it is indistinguishable
+      from a normal rug.'
+    actions: '<b>Smother.</b> Melee Weapon Attack: +5 attack, reach 5, 1 Medium or
+      smaller creature. Hit: The creature is grappled (escape DC 13). Until this grapple
+      ends, the target is restrained, blinded, and at risk of suffocating, and the
+      rug can''t smother another target. In addition, at the start of each of the
+      target''s turns, the target takes 10 (2d6 + 3) bludgeoning damage. '
+    reactions: NA
+    legendaryactions: NA
+  - name: Ankheg
+    alphabeticalname: Ankheg
+    book: MM 21
+    group: NA
+    challenge: 2
+    creaturesize: L
+    creaturealignment: Unaligned
+    creaturetype: monstrosity
+    ac: 14
+    armournotes: natural armor, 11 while prone
+    hp: 39
+    hd: 6d10+6
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 30, burrow 10
+    str: 17
+    dex: 11
+    con: 13
+    intel: 1
+    wis: 13
+    cha: 6
+    senses: Darkvision 60, Tremorsense 60
+    passiveperception: 11
+    languages: NA
+    skills: NA
+    notes: <b>Acid Spray (Recharge 6).</b> The ankheg spits acid in a line that is
+      30 feet long and 5 feet wide, provided that it has no creature grappled. Each
+      creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6)
+      acid damage on a failed save, or half as much damage on a successful one.
+    actions: '<b>Bite.</b> Melee Weapon Attack: +5 to hit, reach 5 ft., one target.
+      Hit: 9 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is
+      a Large or smaller creature, it is grappled (escape DC 13). Until this grapple
+      ends, the ankheg can bite only the grappled creature and has advantage on attack
+      rolls to do so.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Azer
+    alphabeticalname: Azer
+    book: MM 22
+    group: NA
+    challenge: 2
+    creaturesize: M
+    creaturealignment: LN
+    creaturetype: elemental
+    ac: 17
+    armournotes: natural armor, shield
+    hp: 39
+    hd: 6d8+12
+    saves: Con 4
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: Fire, poison
+    conditionimmunities: Poisoned
+    speed: 30
+    str: 17
+    dex: 12
+    con: 15
+    intel: 12
+    wis: 13
+    cha: 10
+    senses: Normal sight
+    passiveperception: 11
+    languages: Ignan
+    skills: NA
+    notes: "<b>Heated Body.</b> A creature that touches the azer or hits it with a
+      melee attack while within 5 feet of it takes 5 (1d10) fire damage.\n \n<b>Heated
+      Weapons.</b> When the azer hits with a metal melee weapon, it deals an extra
+      3 (1d6) fire damage (included in the attack).\n \n<b>Illumination.</b> The azer
+      sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+    actions: '<b>Warhammer.</b> Melee Weapon Attack: +5 to hit, reach 5, one target.
+      Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used
+      with two hands to make a melee attack, plus 3 (1d6) fire damage.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Banshee
+    alphabeticalname: Banshee
+    book: MM 23
+    group: NA
+    challenge: 4
+    creaturesize: M
+    creaturealignment: CE
+    creaturetype: undead
+    ac: 12
+    armournotes: NA
+    hp: 58
+    hd: 13d8
+    saves: Wis 2, Cha 4
+    damagevulnerabilities: NA
+    damageresistances: Acid, fire, lightning, thunder; bludgeoning, piercing and slashing
+      from nonmagical weapons.
+    damageimmunities: Cold, necrotic, poison
+    conditionimmunities: Charmed, exhaustion, frightened, grappled, paralyzed, petrified,
+      poisoned, prone, restrained
+    speed: 40 fly (hover)
+    str: 1
+    dex: 14
+    con: 10
+    intel: 12
+    wis: 11
+    cha: 17
+    senses: Darkvision 60
+    passiveperception: 10
+    languages: Common, Elvish
+    skills: NA
+    notes: "<b>Detect Life.</b> The banshee can magically sense the presence of living
+      creatures up to 5 miles away. She knows the general direction they're in but
+      not their exact locations. \n\n<b>Incorporeal Movement.</b> The banshee can
+      move through 0ther creatures and objects as if they were difficult terrain.
+      She takes 5 (1d10) force damage if she ends her turn inside an object."
+    actions: '<b>Corrupting Touch.</b> Melee Spell Attack: +4 to hit, reach 5, one
+      target. Hit: 12 (3d6 + 2) necrotic damage.
+
+
+      <b>Horrifying Visage.</b> Each non-undead creature within 60 feet of the banshee
+      that can see her must succeed on a DC 13 Wisdom saving throw or be frightened
+      for 1 minute. A frightened target can repeat the saving throw at the end of
+      each of its turns, with disadvantage if the banshee is within line of sight,
+      ending the effect on itself on a success. If a target''s saving throw is successful
+      or the effect ends for it, the target is immune to the banshee''s Horrifying
+      Visage for the next 24 hours.
+
+
+      <b>Wail (1/Day).</b> The banshee releases a mournful wail, provided that she
+      isn''t in sunlight. This wail has no effect on constructs and undead. All other
+      creatures within 30 feet of her that can hear her must make a DC 13 Constitution
+      saving throw. On a failure, a creature drops to 0 hit points. On a success,
+      a creature takes 10 (3d6) psychic damage.'
+    reactions: NA
+    legendaryactions: 
+  - name: Basilisk
+    alphabeticalname: Basilisk
+    book: MM 24
+    group: NA
+    challenge: 3
+    creaturesize: M
+    creaturealignment: Unaligned
+    creaturetype: monstrosity
+    ac: 15
+    armournotes: natural armor
+    hp: 52
+    hd: 8d8+16
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 20
+    str: 16
+    dex: 8
+    con: 15
+    intel: 2
+    wis: 8
+    cha: 7
+    senses: Darkvision 60
+    passiveperception: 9
+    languages: NA
+    skills: NA
+    notes: '<b>Petrifying Gaze.</b> If a creature starts its turn within 30 feet of
+      the basilisk and the two of them can see each other, the basilisk can force
+      the creature to make a DC 12 Constitution saving throw if the basilisk isn''t
+      incapacitated. On a failed save, the creature magically begins to turn to stone
+      and is restrained. It must repeat the saving throw at the end of its next turn.
+      On a success, the effect ends. On a failure, the creature is petrified until
+      freed by the greater restoration spell or other magic. A creature that isn''t
+      surprised can avert its eyes to avoid the saving throw at the start of its turn.
+      If it does so, it can''t see the basilisk until the start of its next turn,
+      when it can avert its eyes again. If it looks at the basilisk in the meantime,
+      it must immediately make the save. If the basilisk sees its reflection within
+      30 feet of it in bright light, it mistakes itself for a rival and targets itself
+      with its gaze. '
+    actions: '<b>Bite.</b> Melee Weapon Attack: +5 to hit, reach 5 ft., one target.
+      Hit: 10 (2d6 + 3) piercing damage plus 7 (2d6) poison damage. '
+    reactions: NA
+    legendaryactions: NA
+  - name: Behir
+    alphabeticalname: Behir
+    book: MM 25
+    group: NA
+    challenge: 11
+    creaturesize: H
+    creaturealignment: NE
+    creaturetype: monstrosity
+    ac: 17
+    armournotes: natural armor
+    hp: 168
+    hd: 16d12
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: Lightning
+    conditionimmunities: NA
+    speed: 50, climb 40
+    str: 23
+    dex: 16
+    con: 18
+    intel: 7
+    wis: 14
+    cha: 12
+    senses: Darkvision 90
+    passiveperception: 16
+    languages: Draconic
+    skills: Perception 6, Stealth 7
+    notes: NA
+    actions: '<b>Multiattack.</b> The behir makes two attacks: one with its bite and
+      one to constrict.
+
+
+      <b>Bite.</b> Melee Weapon Attack: +10 to hit, reach 10, one target. Hit: 22
+      (3d10 + 6) piercing damage.
+
+
+      <b>Constrict.</b> Melee Weapon Attack: + 10 to hit, reach 5, one Large or smaller
+      creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing
+      damage. The target is grappled (escape DC 16) if the behir isn''t already constricting
+      a creature, and the target is restrained until this grapple ends.
+
+
+      <b>Lightning Breath (Recharge 5-6).</b> The behir exhales a line of lightning
+      that is 20 feet long and 5 feet wide. Each creature in that line must make a
+      DC 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed
+      save, or half as much damage on a successful one.
+
+
+      <b>Swallow.</b> The behir makes one bite attack against a Medium or smaller
+      target it is grappling. If the attack hits, the target is also swallowed, and
+      the grapple ends. While swallowed, the target is blinded and restrained, it
+      has total cover against attacks and other effects outside the behir, and it
+      takes 21 (6d6) acid damage at the start of each of the behir''s turns. A behir
+      can have only one creature swallowed at a time. If the behir takes 30 damage
+      or more on a single turn from the swallowed creature, the behir must succeed
+      on a DC 14 Constitution saving throw at the end of that turn or regurgitate
+      the creature, which falls prone in a space within 10 feet of the behir. If the
+      behir dies, a swallowed creature is no longer restrained by it and can escape
+      from the corpse by using 15 feet of movement, exiting prone.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Beholder
+    alphabeticalname: Beholder
+    book: MM 28
+    group: Beholder
+    challenge: 13
+    creaturesize: L
+    creaturealignment: LE
+    creaturetype: aberration
+    ac: 18
+    armournotes: natural armor
+    hp: 180
+    hd: 19d10
+    saves: Int 8, Wis 7, Cha 8
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: Prone
+    speed: 20 fly (hover)
+    str: 10
+    dex: 14
+    con: 18
+    intel: 17
+    wis: 15
+    cha: 17
+    senses: Darkvision 120
+    passiveperception: 22
+    languages: Deep Speech, Undercommon
+    skills: Perception 12
+    notes: <b>Antimagic Cone.</b> The beholder's central eye creates an area of antimagic,
+      as in the antimagic field spell, in a 150-foot cone. At the start of each of
+      its turns, the beholder decides which way the cone faces and whether the cone
+      is active. The area works against the beholder's own eye rays.
+    actions: '<b>Bite.</b> Melee Weapon Attack: +5 to hit, reach 5, one target. Hit:
+      14 (4d6) piercing damage.
+
+
+      <b>Eye Rays.</b> The beholder shoots three of the following magical eye rays
+      at random (reroll duplicates), choosing one to three targets it can see within
+      120 feet of it:
+
+
+      <b>1. Charm Ray.</b> The targeted creature must succeed on a DC 16 Wisdom saving
+      throw or be charmed by the beholder for 1 hour, or until the beholder harms
+      the creature.
+
+
+      <b>2. Paralyzing Ray.</b> The targeted creature must succeed on a DC 16 Constitution
+      saving throw or be paralyzed for 1 minute. The taget can repeat the saving throw
+      at the end of each of its turns, ending the effect on itself on a success.
+
+
+      <b>3. Fear Ray.</b> The targeted creature must succeed on a DC 16 Wisdom saving
+      throw or be frightened for 1 minute. The target can repeat the saving throw
+      at the end of each of its turns, ending the effect on itself on a success.
+
+
+      <b>4. Slowing Ray.</b> The targeted creature must succeed on a DC 16 Dexterity
+      saving throw. On a failed save, the target''s speed is halved for 1 minute.
+      In addition, the creature can''t take reactions, and it can take either an action
+      or a bonus action on its turn, not both. The creature can repeat the saving
+      throw at the end of each of its turns, ending the effect 0n itself on a success.
+
+
+      <b>5. Enervation Ray.</b> The targeted creature must make a DC 16 Constitution
+      saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much
+      damage on a successful one.
+
+
+      <b>6. Telekinetic Ray.</b> If the target is a creature, it must succeed on a
+      DC 16 Strength saving throw or the beholder moves it up to 30 feet in any direction.
+      It is restrained by the ray''s telekinetic grip until the start of the beholder''s
+      next turn or until the beholder is incapacitated. If the target is an object
+      weighing 300 pounds or less that isn''t being worn or carried, it is moved up
+      to 30 feet in any direction. The beholder can also exert fine control on objects
+      with this ray, such as manipulating a simple tool or opening a door or a container.
+
+
+      <b>7. Sleep Ray.</b> The targeted creature must succeed on a DC 16 Wisdom saving
+      throw or fall asleep and remain unconscious for 1 minute. The target awakens
+      if it takes damage or another creature takes an action to wake it. This ray
+      has no effect on constructs and undead.
+
+
+      <b>8. Petrification Ray.</b> The targeted creature must make a DC 16 Dexterity
+      saving throw. On a failed save, the creature begins to turn to stone and is
+      restrained. It must repeat the saving throw at the end of its next turn. On
+      a success, the effect ends. On a failure, the creature is petrified until freed
+      by the greater restoration spell or other magic.
+
+
+      <b>9. Disintegration Ray.</b> If the target is a creature, it must succeed on
+      a DC 16 Dexterity saving throw or take 45 (10d8) force damage. If this damage
+      reduces the creature to 0 hit points, its body becomes a pile of fine grey dust.
+      If the target is a Large or smaller non magical object or creation of magical
+      force, it is disintegrated without a saving throw. If the target is a Huge or
+      larger object or creation of magical force, this ray disintegrates a 10-foot
+      cube of it.
+
+
+      <b>10. Death Ray.</b> The targeted creature must succeed on a DC 16 Dexterity
+      saving throw or take 55 (10d10) necrotic damage. The target dies if the ray
+      reduces it to 0 hit points.'
+    reactions: NA
+    legendaryactions: "The beholder can take 3 legendary actions, using the Eye Ray
+      option below. It can take only one legendary action at a time and only at the
+      end of another creature's turn. The beholder regains spent legendary actions
+      at the start of its turn. \n\n<b>Eye Ray.</b> The beholder uses one random eye
+      ray. "
+  - name: Death Tyrant
+    alphabeticalname: Death Tyrant
+    book: MM 29
+    group: Beholder
+    challenge: 14
+    creaturesize: L
+    creaturealignment: LE
+    creaturetype: undead
+    ac: 19
+    armournotes: natural armor
+    hp: 187
+    hd: 25d10+50
+    saves: Str 5, Con 7, Int 9, Wis 7, Cha 9
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: Poison
+    conditionimmunities: ' Charmed, exhaustion, paralyzed, petrified, poisoned, prone'
+    speed: ' Fly 20 (hover)'
+    str: 10
+    dex: 14
+    con: 14
+    intel: 19
+    wis: 15
+    cha: 19
+    senses: Darkvision 120
+    passiveperception: 22
+    languages: Deep Speech, Undercommon
+    skills: Perception 12
+    notes: <b>Negative Energy Cone.</b> The death tyrant's central eye emits an invisible,
+      magical 150-foot cone of negative energy. At the start of each of its turns,
+      the tyrant decides which way the cone faces and whether the cone is active.
+      Any creature in that area can't regain hit points. Any humanoid that dies there
+      becomes a zombie under the tyrant's command. The dead humanoid retains its place
+      in the initiative order and animates at the start of its next turn, provided
+      that its body hasn't been completely destroyed.
+    actions: "<b>Bite.</b> Melee Weapon Attack: +5 to hit, reach 5, one target. Hit:
+      14 (4d6) piercing damage.\n \n<b>Eye Rays.</b> The death tyrant shoots three
+      of the following magical eye rays at random (reroll duplicates), choosing one
+      to three targets it can see within 120 feet of it:\n \n<b>1. Charm Ray.</b>
+      The targeted creature must succeed on a DC 17 Wisdom saving throw or be charmed
+      by the tyrant for 1 hour, or until the beholder harms the creature.\n\n<b>2.
+      Paralyzing Ray.</b> The targeted creature must succeed on a DC 17 Constitution
+      saving throw or be paralyzed for 1 minute. The target can repeat the saving
+      throw at the end of each of its turns, ending the effect on itself on a success.\n\n<b>3.
+      Fear Ray.</b> The targeted creature must succeed on a DC 17 Wisdom saving throw
+      or be frightened for 1 minute. The target can repeat the saving throw at the
+      end of each of its turns, ending the effect on itself on a success.\n\n<b>4.
+      Slowing Ray.</b> The targeted creature must succeed on a DC 17 Dexterity saving
+      throw. On a failed save, the target's speed is halved for 1 minute. In addition,
+      the creature can't take reactions, and it can take either an action or a bonus
+      action on its turn, not both. The creature can repeat the saving throw at the
+      end of each of its turns, ending the effect on itself on a success.\n\n<b>5.
+      Enervation Ray.</b> The targeted creature must make a DC 17 Constitution saving
+      throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage
+      on a successful one.\n\n<b>6. Telekinetic Ray.</b> If the target is a creature,
+      it must succeed on a DC 17 Strength saving throw or the tyrant moves it up to
+      30 feet in any direction. The target is restrained by the ray's telekinetic
+      grip until the start of the tyrant's next turn or until the tyrant is incapacitated.
+      If the target is an object weighing 300 pounds or less that isn't being worn
+      or carried, it is moved up to 30 feet in any direction. The tyrant can also
+      exert fine control on objects with this ray, such as manipulating a simple tool
+      or opening a door or a container.\n\n<b>7. Sleep Ray.</b> The targeted creature
+      must succeed on a DC 17 Wisdom saving throw or fall asleep and remain unconscious
+      for 1 minute. The target awakens if it takes damage or another creature takes
+      an action to wake it. This ray has no effect on constructs and undead.\n\n<b>8.
+      Petrification Ray.</b> The targeted creature must make a DC 17 Dexterity saving
+      throw. On a failed save, the creature begins to turn to stone and is restrained.
+      It must repeat the saving throw at the end of its next turn. On a success, the
+      effect ends. On a failure, the creature is petrified until freed by the greater
+      restoration spell or other magic.\n\n<b>9. Disintegration Ray.</b> If the target
+      is a creature, it must succeed on a DC 17 Dexterity saving throw or take 45
+      (10d8) force damage. If this damage reduces the creature to 0 hit points, its
+      body becomes a pile of fine grey dust. If the target is a Large or smaller non
+      magical object or creation of magical force, it is disintegrated without a saving
+      throw. If the target is a Huge or larger object or creation of magical force,
+      this ray disintegrates a 10-foot cube of it.\n\n<b>10. Death Ray.</b> The targeted
+      creature must succeed on a DC 17 Dexterity saving throw or take 55 (10d10) necrotic
+      damage. The target dies if the ray reduces it to 0 hit points."
+    reactions: NA
+    legendaryactions: 'The death tyrant can take 3 legendary actions, using the Eye
+      Ray option below. It can take only one legendary action at a time and only at
+      the end of another creature''s turn. The tyrant regains spent legendary actions
+      at the start of its turn.
+
+
+      <b>Eye Ray.</b> The death tyrant uses one random eye ray.'
+  - name: Spectator
+    alphabeticalname: Spectator
+    book: MM 30
+    group: Beholder
+    challenge: 3
+    creaturesize: M
+    creaturealignment: LN
+    creaturetype: aberration
+    ac: 14
+    armournotes: natural armor
+    hp: 39
+    hd: 6d8+12
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: Prone
+    speed: Fly 30 (hover)
+    str: 8
+    dex: 14
+    con: 14
+    intel: 13
+    wis: 14
+    cha: 11
+    senses: Darkvision 120
+    passiveperception: 16
+    languages: Deep Speech, Undercommon, telepathy 120
+    skills: Perception 6
+    notes: NA
+    actions: "<b>Bite.</b> Melee Weapon Attack: +1 to hit, reach 5, one target. Hit:
+      2 (1d6-1) piercing damage. \nEye Rays. The spectator shoots up to two of the
+      following magical eye rays at one or two creatures it can see within 90 feet
+      of it. It can use each ray only once on a turn.\n \n<b>1. Confusion Ray.</b>
+      The target must succeed on a DC 13 Wisdom saving throw, or it can't take reactions
+      until the end of its next turn. On its turn, the target can't move, and it uses
+      its action to make a melee or ranged attack against a randomly determined creature
+      within range. If the target can't attack, it does nothing on its turn.\n\n<b>2.
+      Paralyzing Ray.</b> The target must succeed on a DC 13 Constitution saving throw
+      or be paralyzed for 1 minute. The target can repeat the saving throw at the
+      end of each of its turns, ending the effect on itself on a success.\n\n<b>3.
+      Fear Ray.</b> The target must succeed on a DC 13 Wisdom saving throw or be frightened
+      for 1 minute. The target can repeat the saving throw at the end of each of its
+      turns, with disadvantage if the spectator is visible to the target, ending the
+      effect on itself on a success.\n\n<b>4. Wounding Ray.</b> The target must make
+      a DC 13 Constitution saving throw, taking 16 (3d10) necrotic damage on a failed
+      save, or half as much damage on a successful one.\n\n<b>Create Food and Water.</b>
+      The spectator magically creates enough food and water to sustain itself for
+      24 hours."
+    reactions: <b>Spell Reflection.</b> If the spectator makes a successful saving
+      throw against a spell, or a spell attack misses it, the spectator can choose
+      another creature (including the spellcaster) it can see within 30 feet of it.
+      The spell targets the chosen creature instead of the spectator. If the spell
+      forced a saving throw, the chosen creature makes its own save. If the spell
+      was an attack, the attack roll is rerolled against the chosen creature.
+    legendaryactions: NA
+  - name: Needle Blight
+    alphabeticalname: Needle Blight
+    book: MM 32
+    group: Blight
+    challenge: 1/4
+    creaturesize: M
+    creaturealignment: NE
+    creaturetype: plant
+    ac: 12
+    armournotes: natural armor
+    hp: 11
+    hd: 2d8+2
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: Blinded, deafened
+    speed: 30
+    str: 12
+    dex: 12
+    con: 13
+    intel: 4
+    wis: 8
+    cha: 3
+    senses: Blindsight 60 (blind beyond this radius)
+    passiveperception: 9
+    languages: Common (understands but can't speak)
+    skills: NA
+    notes: NA
+    actions: '<b>Claws.</b> Melee Weapon Attack: +3 to hit, reach 5, one target. Hit:
+      6 (2d4 + 1) piercing damage.
+
+
+      <b>Needles.</b> Ranged Weapon Attack: +3 to hit, range 30/60, one target. Hit:
+      8 (2d6 + 1) piercing damage.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Twig Blight
+    alphabeticalname: Twig Blight
+    book: MM 32
+    group: Blight
+    challenge: 1/8
+    creaturesize: S
+    creaturealignment: NE
+    creaturetype: plant
+    ac: 13
+    armournotes: natural armor
+    hp: 4
+    hd: d6+1
+    saves: NA
+    damagevulnerabilities: Fire
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: Blinded, deafened
+    speed: 20
+    str: 6
+    dex: 13
+    con: 12
+    intel: 4
+    wis: 8
+    cha: 3
+    senses: Blindsight 60 (blind beyond this radius)
+    passiveperception: 9
+    languages: Common (understands but can't speak)
+    skills: Stealth 3
+    notes: <b>False Appearance.</b> While the blight remains motionless, it is indistinguishable
+      from a dead shrub.
+    actions: '<b>Claws.</b> Melee Weapon Attack: +3 to hit, reach 5, one target. Hit:
+      3 (1d4 + 1) piercing damage.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Vine Blight
+    alphabeticalname: Vine Blight
+    book: MM 32
+    group: Blight
+    challenge: 1/2
+    creaturesize: M
+    creaturealignment: NE
+    creaturetype: plant
+    ac: 12
+    armournotes: natural armor
+    hp: 26
+    hd: 4d8+8
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: Blinded, deafened
+    speed: 10
+    str: 15
+    dex: 8
+    con: 14
+    intel: 5
+    wis: 10
+    cha: 3
+    senses: Blindsight 60 (blind beyond this radius)
+    passiveperception: 0
+    languages: Common
+    skills: Stealth 1
+    notes: <b>False Appearance.</b> While the blight remains motionless, it is indistinguishable
+      from a dead shrub.
+    actions: "<b>Constrict.</b> Melee Weapon Attack: +4 to hit, reach 10, one target.
+      Hit: 9 (2d6 + 2) bludgeoning damage, and a Large or smaller target is grappled
+      (escape DC 12). Until this grapple ends, the target is restrained, and the blight
+      can't constrict another target.\n \n<b>Entangling Plants (Recharge 5-6).</b>
+      Grasping roots and vines sprout in a 15-foot radius centred on the blight, withering
+      away after 1 minute. For the duration, that area is difficult terrain for non-plant
+      creatures. In addition, each creature of the blight's choice in that area when
+      the plants appear must succeed on a DC 12 Strength saving throw or become restrained.
+      A creature can use its action to make a DC 12 Strength check, freeing itself
+      or another entangled creature within reach on a success."
+    reactions: NA
+    legendaryactions: NA
+  - name: Bugbear
+    alphabeticalname: Bugbear
+    book: MM 33
+    group: Bugbear
+    challenge: 1
+    creaturesize: M
+    creaturealignment: CE
+    creaturetype: humanoid
+    ac: 16
+    armournotes: Hide armour, shield
+    hp: 27
+    hd: 5d8+5
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 30
+    str: 15
+    dex: 14
+    con: 13
+    intel: 8
+    wis: 11
+    cha: 9
+    senses: Darkvision 60
+    passiveperception: 10
+    languages: Common, Goblin
+    skills: Stealth 6 Survival 2
+    notes: "<b>Brute.</b> A melee weapon deals one extra die of its damage when the
+      bugbear hits with it (included in the attack). \n\n<b>Surprise Attack.</b> If
+      the bugbear surprises a creature and hits it with an attack during the first
+      round of combat, the target takes an extra 7 (2d6) damage from the attack."
+    actions: '<b>Morningstar.</b> Melee Weapon Attack: +4 to hit, reach 5, one target.
+      Hit: 9 (2d8 + 2) piercing damage.
+
+
+      <b>Javelin.</b> Melee or Ranged Weapon Attack: +4 to hit, reach 5 or range 30/120,
+      one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing
+      damage at range.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Bugbear Chief
+    alphabeticalname: Bugbear Chief
+    book: MM 33
+    group: Bugbear
+    challenge: 3
+    creaturesize: M
+    creaturealignment: CE
+    creaturetype: humanoid
+    ac: 17
+    armournotes: Chain shirt, shield
+    hp: 65
+    hd: 10d8+20
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 30
+    str: 17
+    dex: 14
+    con: 14
+    intel: 11
+    wis: 12
+    cha: 11
+    senses: Darkvision 60
+    passiveperception: 11
+    languages: Common, Goblin
+    skills: Intimidation 2, Stealth 6, Survivial 3
+    notes: "<b>Brute.</b> A melee weapon deals one extra die of its damage when the
+      bugbear hits with it (included in the attack).\n \n<b>Heart of Hruggek.</b>
+      The bugbear has advantage on saving throws against being charmed, frightened,
+      paralyzed, poisoned, stunned, or put to sleep.\n \n<b>Surprise Attack.</b> If
+      the bugbear surprises a creature and hits it with an attack during the first
+      round of combat, the target takes an extra 7 (2d6) damage from the attack."
+    actions: '<b>Multiattack.</b> The bugbear makes two melee attacks.
+
+
+      <b>Morningstar.</b> Melee Weapon Attack: +5 to hit, reach 5, one target. Hit:
+      12 (2d8 + 3) piercing damage.
+
+
+      <b>Javelin.</b> Melee or Ranged Weapon Attack: +5 to hit, reach 5 or range 30/120,
+      one target. Hit: 10 (2d6 + 3) piercing damage in melee or 6 (1d6 + 3) piercing
+      damage at range.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Bulette
+    alphabeticalname: Bulette
+    book: MM 34
+    group: NA
+    challenge: 5
+    creaturesize: L
+    creaturealignment: Unaligned
+    creaturetype: monstrosity
+    ac: 17
+    armournotes: natural armor
+    hp: 94
+    hd: 9d10+45
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 40, burrow 40
+    str: 19
+    dex: 11
+    con: 21
+    intel: 2
+    wis: 10
+    cha: 5
+    senses: NA
+    passiveperception: 16
+    languages: NA
+    skills: Perception 6
+    notes: '<b>Standing Leap.</b> The bulette''s long jump is up to 30 feet and its
+      high jump is up to 15 feet, with or without a running start. '
+    actions: '<b>Bite.</b> Melee Weapon Attack: +7 to hit, reach 5, one target. Hit:
+      30 (4d12 + 4) piercing damage.
+
+
+      <b>Deadly Leap.</b> If the bulette jumps at least 15 feet as part of its movement,
+      it can then use this action to land on its feet in a space that contains one
+      or more other creatures. Each of those creatures must succeed on a DC 16 Strength
+      or Dexterity saving throw (target''s choice) or be knocked prone and take 14
+      (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful
+      save, the creature takes only half the damage, isn''t knocked prone, and is
+      pushed 5 feet out of the bulette''s space into an unoccupied space of the creature''s
+      choice. If no unoccupied space is within range, the creature instead falls prone
+      in the bulette''s space.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Bullywug
+    alphabeticalname: Bullywug
+    book: MM 35
+    group: NA
+    challenge: 1/4
+    creaturesize: M
+    creaturealignment: NE
+    creaturetype: humanoid
+    ac: 15
+    armournotes: Hide armour, shield
+    hp: 11
+    hd: 2d8+2
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 20, swim 40
+    str: 12
+    dex: 12
+    con: 13
+    intel: 7
+    wis: 10
+    cha: 7
+    senses: Normal sight
+    passiveperception: 10
+    languages: Bullywug
+    skills: Stealth 3
+    notes: "<b>Amphibious.</b> The bullywug can breathe air and water. \n\n<b>Speak
+      with Frogs and Toads.</b> The bullywug can communicate simple concepts to frogs
+      and toads when it speaks in Bullywug.\n\n<b>Swamp Camouflage.</b> The bullywug
+      has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.\n\n<b>Standing
+      Leap.</b> The bullywug's long jump is up to 20 feet and its high jump is up
+      to 10 feet, with or without a running start."
+    actions: '<b>Multiattack.</b> The bullywug makes two melee attacks: one with its
+      bite and one with its spear.
+
+
+      <b>Bite.</b> Melee Weapon Attack: +3 to hit, reach 5., one target. Hit: 3 (1d4
+      + 1) bludgeoning damage.
+
+
+      <b>Spear.</b> Melee or Ranged Weapon Attack: +3 to hit, reach 5. or range 20/60,
+      one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage
+      if used with two hands to make a melee attack.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Cambion
+    alphabeticalname: Cambion
+    book: MM 36
+    group: NA
+    challenge: 5
+    creaturesize: M
+    creaturealignment: Any evil
+    creaturetype: fiend
+    ac: 19
+    armournotes: Scale mail
+    hp: 82
+    hd: 11d8+33
+    saves: Str 7, Con 6, Int 5, Cha 6
+    damagevulnerabilities: NA
+    damageresistances: Cold, fire, lightning, poison; bludgeoning, piercing, and slashing
+      from non magical weapons
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 30, fly 60
+    str: 18
+    dex: 18
+    con: 16
+    intel: 14
+    wis: 12
+    cha: 16
+    senses: Darvision 60
+    passiveperception: 14
+    languages: Abyssal, Common, Infernal
+    skills: Deception 6, Intimidation 6, Perception 4, Stealth 7
+    notes: "<b>Fiendish Blessing.</b> The AC of the cambion includes its Charisma
+      bonus. \n\n<b>Innate Spellcasting.</b> The cambion's spellcasting ability is
+      Charisma (spell save DC 14). The cambion can innately cast the following spells,
+      requiring no material components: \n3/day each: alter self, command, detect
+      magic 1/day: plane shift (self only)"
+    actions: "<b>Multiattack.</b> The cambion makes two melee attacks or uses its
+      Fire Ray twice.\n\n<b>Spear.</b> Melee or Ranged Weapon Attack: +7 to hit, reach
+      5 or range 20/60, one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 +
+      4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6)
+      fire damage.\n \n<b>Fire Ray.</b> Ranged Spell Attack: +7 to hit, range 120,
+      one target. Hit: 10 (3d6) fire damage.\n\n<b>Fiendish Charm.</b> One humanoid
+      the cambion can see within 30 feet of it must succeed on a DC 14 Wisdom saving
+      throw or be magically charmed for 1 day. The charmed target obeys the cambion's
+      spoken commands. If the target suffers any harm from the cambion or another
+      creature or receives a suicidal command from the cambion, the target can repeat
+      the saving throw, ending the effect on itself on a success. If a target's saving
+      throw is successful, or if the effect ends for it, the creature is immune to
+      the cambion's Fiendish Charm for the next 24 hours."
+    reactions: NA
+    legendaryactions: NA
+  - name: Carrion Crawler
+    alphabeticalname: Carrion Crawler
+    book: MM 37
+    group: NA
+    challenge: 2
+    creaturesize: L
+    creaturealignment: Unaligned
+    creaturetype: monstrosity
+    ac: 13
+    armournotes: natural armor
+    hp: 51
+    hd: 6d10+18
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 30, climb 30
+    str: 14
+    dex: 13
+    con: 16
+    intel: 1
+    wis: 12
+    cha: 5
+    senses: Darvision 60
+    passiveperception: 13
+    languages: NA
+    skills: Perception 3
+    notes: "<b>Keen Smell.</b> The carrion crawler has advantage on Wisdom (Perception)
+      checks that rely on smell. \n\n<b>Spider Climb.</b> The carrion crawler can
+      climb difficult surfaces, including upside down on ceilings, without needing
+      to make an ability check."
+    actions: '<b>Multiattack.</b> The carrion crawler makes two attacks: one with
+      its tentacles and one with its bite.
+
+
+      <b>Tentacles.</b> Melee Weapon Attack: +8 to hit, reach 10, one creature. Hit:
+      4 (1d4+2) poison damage, and the target must succeed on a DC 13 Constitution
+      saving throw or be poisoned for 1 minute. Until this poison ends, the target
+      is paralyzed. The target can repeat the saving throw at the end of each of its
+      turns, ending the poison on itself on a success.
+
+
+      <b>Bite.</b> Melee Weapon Attack: +4 to hit, reach 5, one target. Hit: 7 (2d4+2)
+      piercing damage.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Centaur
+    alphabeticalname: Centaur
+    book: MM 38
+    group: NA
+    challenge: 2
+    creaturesize: L
+    creaturealignment: NG
+    creaturetype: monstrosity
+    ac: 12
+    armournotes: NA
+    hp: 45
+    hd: 6d10+12
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 50
+    str: 18
+    dex: 14
+    con: 14
+    intel: 9
+    wis: 13
+    cha: 11
+    senses: Normal sight
+    passiveperception: 13
+    languages: Elvish, Sylvan
+    skills: Athletics 6, Perception 3, Survival 3
+    notes: <b>Charge.</b> If the centaur moves at least 30 feet straight toward a
+      target and then hits it with a pike attack on the same turn, the target takes
+      an extra 10 (3d6) piercing damage.
+    actions: "<b>Multiattack.</b> The centaur makes two attacks: one with its pike
+      and one with its hooves or two with its longbow.\n\n<b>Pike.</b> Melee Weapon
+      Attack: +6 to hit, reach 10, one target. Hit: 9 (1d10+4) piercing damage.\n
+      \n<b>Hooves.</b> Melee Weapon Attack: +6 to hit, reach 5, one target. Hit: 11
+      (2d6+4) bludgeoning damage.\n\n<b>Longbow.</b> Ranged Weapon Attack: +4 to hit,
+      range 150/600, one target. Hit: 6 (1d8+2) piercing damage."
+    reactions: NA
+    legendaryactions: NA
+  - name: Chimera
+    alphabeticalname: Chimera
+    book: MM 39
+    group: NA
+    challenge: 6
+    creaturesize: L
+    creaturealignment: CE
+    creaturetype: monstrosity
+    ac: 14
+    armournotes: natural armor
+    hp: 114
+    hd: 12d10+48
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 30, fly 60
+    str: 19
+    dex: 11
+    con: 19
+    intel: 3
+    wis: 14
+    cha: 10
+    senses: Darkvision 60
+    passiveperception: 18
+    languages: Draconic (understands but can't speak)
+    skills: Perception 8
+    notes: NA
+    actions: '<b>Multiattack.</b> The chimera makes three attacks: one with its bite,
+      one with its horns, and one with its claws. When its fire breath is available,
+      it can use the breath in place of its bite or horns.
+
+
+      <b>Bite.</b> Melee Weapon Attack: +7 to hit, reach 5, one target. Hit: 11 (2d6+4)
+      piercing damage.
+
+
+      <b>Horns.</b> Melee Weapon Attack: +7 to hit, reach 5, one target. Hit: 10 (1d12+4)
+      bludgeoning damage.
+
+
+      <b>Claws.</b> Melee Weapon Attack: +7 to hit, reach 5, one target. Hit: 11 (2d6+4)
+      slashing damage.
+
+
+      <b>Fire Breath (Recharge 5-6).</b> The dragon head exhales fire in a 15-foot
+      cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking
+      31 (7d8) fire damage on a failed save, or half as much damage on a successful
+      one.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Chuul
+    alphabeticalname: Chuul
+    book: MM 40
+    group: NA
+    challenge: 4
+    creaturesize: L
+    creaturealignment: CE
+    creaturetype: aberation
+    ac: 16
+    armournotes: natural armor
+    hp: 93
+    hd: 11d10+33
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: Poison
+    conditionimmunities: Poisoned
+    speed: 30, swim 30
+    str: 19
+    dex: 10
+    con: 16
+    intel: 5
+    wis: 11
+    cha: 5
+    senses: Darkvision 60
+    passiveperception: 14
+    languages: Deep Speech (understands but can't speak)
+    skills: Perception 4
+    notes: "<b>Amphibious.</b> The chuul can breathe air and water. \n\n<b>Sense Magic.</b>
+      The chuul senses magic within 120 feet of it at will. This trait otherwise works
+      like the detect magic spell but isn't itself magical."
+    actions: "<b>Multiattack.</b> The chuul makes two pincer attacks. If the chuul
+      is grappling a creature, the chuul can also use its tentacles once.\n \n<b>Pincer.</b>
+      Melee Weapon Attack: +6 to hit, reach 10, one target. Hit: 11 (2d6+4) bludgeoning
+      damage. The target is grappled (escape DC 14) if it is a Large or smaller creature
+      and the chuul doesn't have two other creatures grappled.\n \n<b>Tentacles.</b>
+      One creature grappled by the chuul must succeed on a DC 13 Constitution saving
+      throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed.
+      The target can repeat the saving throw at the end of each of its turns, ending
+      the effect on itself on a success."
+    reactions: NA
+    legendaryactions: NA
+  - name: Cloaker
+    alphabeticalname: Cloaker
+    book: MM 41
+    group: NA
+    challenge: 8
+    creaturesize: L
+    creaturealignment: CN
+    creaturetype: aberation
+    ac: 14
+    armournotes: natural armor
+    hp: 78
+    hd: 12d10+12
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 10, fly 40
+    str: 17
+    dex: 15
+    con: 12
+    intel: 13
+    wis: 12
+    cha: 14
+    senses: Darkvision 60
+    passiveperception: 11
+    languages: Deep Speech, Undercommon
+    skills: Stealth 5
+    notes: "<b>Damage Transfer.</b> While attached to a creature, the cloaker takes
+      only half the damage dealt to it (rounded down). and that creature takes the
+      other half. \n\n<b>False Appearance.</b> While the cloaker remains motionless
+      without its underside exposed, it is indistinguishable from a dark leather cloak.
+      \n\n<b>Light Sensitivity.</b> While in bright light, the cloaker has disadvantage
+      on attack rolls and Wisdom (Perception) checks that rely on sight."
+    actions: "<b>Multiattack.</b> The cloaker makes two attacks: one with its bite
+      and one with its tail.\n\n<b>Bite.</b> Melee Weapon Attack: +6 to hit, reach
+      5, one creature. Hit: 10 (2d6+3) piercing damage, and if the target is Large
+      or smaller, the cloaker attaches to it. If the cloaker has advantage against
+      the target, the cloaker attaches to the target's head, and the target is blinded
+      and unable to breathe while the cloaker is attached. While attached, the cloaker
+      can make this attack only against the target and has advantage on the attack
+      roll. The cloaker can detach itself by spending 5 feet of its movement. A creature,
+      including the target, can take its action to detach the cloaker by succeeding
+      on a DC 16 Strength check.\n\n<b>Tail.</b> Melee Weapon Attack: +6 to hit, reach
+      10, one creature. Hit: 7 (1d8+3) slashing damage.\n\n<b>Moan.</b> Each creature
+      within 60 feet of the cloaker that can hear its moan and that isn't an aberration
+      must succeed on a DC 13 Wisdom saving throw or become frightened until the end
+      of the cloaker's next turn. If a creature's saving throw is successful, the
+      creature is immune to the cloaker's moan for the next 24 hours.\n \n<b>Phantasms
+      (Recharges after a Short or Long Rest).</b> The cloaker magically creates three
+      illusory duplicates of itself if it isn't in bright light. The duplicates move
+      with it and mimic its actions, shifting position so as to make it impossible
+      to track which cloaker is the real one. If the cloaker is ever in an area of
+      bright light, the duplicates disappear. Whenever any creature targets the cloaker
+      with an attack or a harmful spell while a duplicate remains, that creature rolls
+      randomly to determine whether it targets the cloaker or one of the duplicates.
+      A creature is unaffected by this magical effect if it can't see or if it relies
+      on senses other than sight. A duplicate has the cloaker's AC and uses its saving
+      throws. If an attack hits a duplicate, or if a duplicate fails a saving throw
+      against an effect that deals damage, the duplicate disappears."
+    reactions: NA
+    legendaryactions: NA
+  - name: Cockatrice
+    alphabeticalname: Cockatrice
+    book: MM 41
+    group: NA
+    challenge: 1/2
+    creaturesize: S
+    creaturealignment: Unaligned
+    creaturetype: monstrosity
+    ac: 11
+    armournotes: NA
+    hp: 27
+    hd: 6d6+6
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 20, fly 40
+    str: 6
+    dex: 12
+    con: 12
+    intel: 2
+    wis: 13
+    cha: 5
+    senses: Darkvision 60
+    passiveperception: 11
+    languages: NA
+    skills: NA
+    notes: NA
+    actions: '<b>Bite.</b> Melee Weapon Attack: +3 to hit, reach 5, one creature.
+      Hit: 3 (1d4+1) piercing damage, and the target must succeed on a DC 11 Constitution
+      saving throw against being magically petrified. On a failed save, the creature
+      begins to turn to stone and is restrained. It must repeat the saving throw at
+      the end of its next turn. On a success, the effect ends. On a failure, the creature
+      is petrified for 24 hours.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Couatl
+    alphabeticalname: Couatl
+    book: MM 43
+    group: NA
+    challenge: 4
+    creaturesize: M
+    creaturealignment: LG
+    creaturetype: celestial
+    ac: 19
+    armournotes: natural armor
+    hp: 97
+    hd: 13d8+39
+    saves: Con 5, Wis 7, Cha 6
+    damagevulnerabilities: NA
+    damageresistances: Radiant
+    damageimmunities: psychic; bludgeoning, piercing, and slashing from non magical
+      weapons
+    conditionimmunities: NA
+    speed: 30, fly 90
+    str: 16
+    dex: 20
+    con: 17
+    intel: 18
+    wis: 20
+    cha: 18
+    senses: Truesight 120
+    passiveperception: 15
+    languages: All, telepathy 120
+    skills: NA
+    notes: "<b>Innate Spellcasting.</b> The couatl's spellcasting ability is Charisma
+      (spell save DC 14). It can innately cast the following spells, requiring only
+      verbal components: \nAt will: detect evil and good, detect magic, detect thoughts
+      3/day each: bless, create food and water, cure wounds, lesser restoration, protection
+      from poison, sanctuary, shield 1/day each: dream, greater restoration, scrying
+      \n\n<b>Magic Weapons.</b> The couatl's weapon attacks are magical. \n\n<b>Shielded
+      Mind.</b> The couatl is immune to scrying and to any effect that would sense
+      its emotions, read its thoughts, or detect its location."
+    actions: "<b>Bite.</b> Melee Weapon Attack: +8 to hit, reach 5, one creature.
+      Hit: 8 (1d6+5) piercing damage, and the target must succeed on a DC 13 Constitution
+      saving throw or be poisoned for 24 hours. Until this poison ends, the target
+      is unconscious. Another creature can use an action to shake the target awake.\n\n<b>Constrict.</b>
+      Melee Weapon Attack: +6 to hit, reach 10, one Medium or smaller creature. Hit:
+      10 (2d6+3) bludgeoning damage, and the target is grappled (escape DC 15). Until
+      this grapple ends, the target is restrained, and the couatl can't constrict
+      another target.\n\n<b>Change Shape.</b> The couatl magically polymorphs into
+      a humanoid or beast that has a challenge rating equal to or less than its own,
+      or back into its true form. It reverts to its true form if it dies. Any equipment
+      it is wearing or carrying is absorbed or borne by the new form (the couatl's
+      choice). In a\xB7 new form, the couatl retains its game statistics and ability
+      to speak, but its AC, movement modes, Strength, Dexterity, and other actions
+      are replaced by those of the new form, and it gains any statistics and capabilities
+      (except class features, legendary actions, and lair actions) that the new form
+      has but that it lacks. If the new form has a bite attack, the couatl can use
+      its bite in that form."
+    reactions: NA
+    legendaryactions: NA
+  - name: Crawling Claw
+    alphabeticalname: Crawling Claw
+    book: MM 44
+    group: NA
+    challenge: 0
+    creaturesize: T
+    creaturealignment: NE
+    creaturetype: undead
+    ac: 12
+    armournotes: NA
+    hp: 2
+    hd: d4
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: poison
+    conditionimmunities: 'charmed, exhaustion, poisoned '
+    speed: 20, climb 20
+    str: 13
+    dex: 14
+    con: 11
+    intel: 5
+    wis: 10
+    cha: 4
+    senses: Blindsight 60 (blind beyond this radius)
+    passiveperception: 10
+    languages: Common (understands but can't speak)
+    skills: NA
+    notes: <b>Turn Immunity.</b> The claw is immune to effects that turn undead.
+    actions: '<b>Claw.</b> Melee Weapon Attack: +3 to hit, reach 5 ft., one target.
+      Hit: 3 (1d4 + 1) bludgeoning or slashing damage (claw''s choice).'
+    reactions: NA
+    legendaryactions: NA
+  - name: Cyclops
+    alphabeticalname: Cyclops
+    book: MM 45
+    group: NA
+    challenge: 6
+    creaturesize: H
+    creaturealignment: CN
+    creaturetype: giant
+    ac: 14
+    armournotes: natural armor
+    hp: 138
+    hd: 12d12+60
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 30
+    str: 22
+    dex: 11
+    con: 20
+    intel: 8
+    wis: 6
+    cha: 10
+    senses: Normal sight
+    passiveperception: 8
+    languages: Giant
+    skills: NA
+    notes: <b>Poor Depth Perception.</b> The cyclops has disadvantage on any attack
+      roll against a target more than 30 feet away.
+    actions: '<b>Multiattack.</b> The cyclops makes two greatclub attacks.
+
+
+      <b>Greatclub.</b> Melee Weapon Attack: +9 to hit, reach 10, one target. Hit:
+      19 (3d8+6) bludgeoning damage.
+
+
+      <b>Rock.</b> Ranged Weapon Attack: +9 to hit, range 30/120 , one target. Hit:
+      28 (4d10+6) bludgeoning damage.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Dark Mantle
+    alphabeticalname: Dark Mantle
+    book: MM 46
+    group: NA
+    challenge: 1/2
+    creaturesize: S
+    creaturealignment: Unaligned
+    creaturetype: monstrosity
+    ac: 11
+    armournotes: NA
+    hp: 22
+    hd: 5d6+5
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 10, fly 30
+    str: 16
+    dex: 12
+    con: 13
+    intel: 2
+    wis: 10
+    cha: 5
+    senses: Blindsight 60
+    passiveperception: 10
+    languages: NA
+    skills: Stealth 3
+    notes: "<b>Echolocation.</b> The darkmantle can't use its blindsight while deafened.
+      \n\n<b>False Appearance.</b> While the darkmantle remains motionless, it is
+      indistinguishable from a cave formation such as a stalactite or stalagmite."
+    actions: '<b>Crush.</b> Melee Weapon Attack: +5 to hit, reach 5, one creature.
+      Hit: 6 (1d6+3) bludgeoning damage, and the darkmantle attaches to the target.
+      If the target is Medium or smaller and the darkmantle has advantage on the attack
+      roll, it attaches by engulfing the target''s head, and the target is also blinded
+      and unable to breathe while the darkmantle is attached in this way. While attached
+      to the target, the darkmantle can attack no other creature except the target
+      but has advantage on its attack rolls. The darkmantle''s speed also becomes
+      0, it can''t benefit from any bonus to its speed, and it moves with the target.
+      A creature can detach the darkmantle by making a successful DC l3 Strength check
+      as an action. On its turn, the darkmantle can detach itself from the target
+      by using 5 feet of movement.
+
+
+      <b>Darkness Aura (1/Day).</b> A 15-foot radius of magical darkness extends out
+      from the darkmantle, moves with it, and spreads around corners. The darkness
+      lasts as long as the darkmantle maintains concentration, up to 10 minutes (as
+      if concentrating on a spell). Darkvision can''t penetrate this darkness, and
+      no natural light can illuminate it. If any of the darkness overlaps with an
+      area of light created by a spell of 2nd level or lower, the spell creating the
+      light is dispelled.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Dark Knight
+    alphabeticalname: Dark Knight
+    book: MM 47
+    group: NA
+    challenge: 17
+    creaturesize: M
+    creaturealignment: CE
+    creaturetype: undead
+    ac: 20
+    armournotes: Plate, shield
+    hp: 180
+    hd: 19d8+95
+    saves: Dex 6, Wis 9, Cha 10
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: Necrotic, poison
+    conditionimmunities: exhaustion, frightened, poisoned
+    speed: 30
+    str: 20
+    dex: 11
+    con: 20
+    intel: 12
+    wis: 16
+    cha: 18
+    senses: Darkvision 120
+    passiveperception: 13
+    languages: Abyssal, Common
+    skills: NA
+    notes: "<b>Magic Resistance.</b> The death knight has advantage on saving throws
+      against spells and other magical effects.\n\n<b>Marshal Undead.</b> Unless the
+      death knight is incapacitated, it and undead creatures of its choice within
+      60 feet of it have advantage on saving throws against features that turn undead.\n\n<b>Spellcasting.</b>
+      The death knight is a 19th-level spellcaster. Its spellcasting ability is Charisma
+      (spell save DC 18, +10 to hit with spell attacks). It has the following paladin
+      spells prepared: \n1st level (4 slots): command, compelled duel, searing smite\n2nd
+      level (3 slots): hold person, magic weapon\n3rd level (3 slots): dispel magic,
+      elemental weapon\n4th level (3 slots): banishment, staggering smite\n5th level
+      (2 slots): destructive wave (necrotic)"
+    actions: '<b>Multiattack.</b> The death knight makes three longsword attacks.
+
+
+      <b>Longsword.</b> Melee Weapon Attack: +11 to hit, reach 5, one target. Hit:
+      9 (d8+5) slashing damage, or 10 (d10+5) slashing damage if used with two hands,
+      plus 18 (4d8) necrotic damage.
+
+
+      <b>Hellfire Orb (1/Day).</b> The death knight hurls a magical ball of fire that
+      explodes at a point it can see within 120 feet of it. Each creature in a 20-foot
+      radius sphere centred on that point must make a DC 18 Dexterity saving throw.
+      The sphere spreads around corners. A creature takes 35 (10d6) fire damage and
+      35 (10d6) necrotic damage on a failed save, or half as much damage on a successful
+      one.'
+    reactions: <b>Parry.</b> The death knight adds 6 to its AC against one melee attack
+      that would hit it. To do so, the death knight must see the attacker and be wielding
+      a melee weapon.
+    legendaryactions: NA
+  - name: Demilich
+    alphabeticalname: NA, Demilich
+    book: MM 48
+    group: NA
+    challenge: 18
+    creaturesize: T
+    creaturealignment: NE
+    creaturetype: undead
+    ac: 20
+    armournotes: natural armor
+    hp: 80
+    hd: 20d4
+    saves: Con 6, Int 11, Wis 9, Cha 11
+    damagevulnerabilities: NA
+    damageresistances: bludgeoning, piercing, and slashing from magic weapons
+    damageimmunities: necrotic, poison, psychic; bludgeoning, piercing, and slashing
+      from non magical weapons
+    conditionimmunities: charmed, deafened, exhaustion, frightened, paralyzed, petrified,
+      poisoned, prone, stunned
+    speed: Fly 30 (hover)
+    str: 1
+    dex: 20
+    con: 10
+    intel: 20
+    wis: 17
+    cha: 20
+    senses: Truesight 120
+    passiveperception: 13
+    languages: NA
+    skills: NA
+    notes: '<b>Avoidance.</b> If the demilich is subjected to an effect that allows
+      it to make a saving throw to take only half damage, it instead takes no damage
+      if it succeeds on the saving throw, and only half damage if it fails.
+
+
+      <b>Legendary Resistance (3/Day).</b> If the demilich fails a saving throw, it
+      can choose to succeed instead.
+
+
+      <b>Turn Immunity.</b> The demilich is immune to effects that turn undead.'
+    actions: '<b>Howl (Recharge 5-6).</b> The demilich emits a bloodcurdling howl.
+      Each creature within 30 feet of the demilich that can hear the howl must succeed
+      on a DC 15 Constitution saving throw or drop to 0 hit points. On a successful
+      save, the creature is frightened until the end of its next turn.
+
+
+      <b>Life Drain.</b> The demilich targets up to three creatures that it can see
+      within 10 feet of it. Each target must succeed on a DC 19 Constitution saving
+      throw or take 21 (6d6) necrotic damage, and the demilich regains hit points
+      equal to the total damage dealt to all targets.'
+    reactions: NA
+    legendaryactions: 'The demilich can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature''s turn. The demilich regains spent legendary
+      actions at the start of its turn.
+
+
+      <b>Flight.</b> The demilich flies up to half its flying speed.
+
+
+      <b>Cloud of Dust.</b> The demilich magically swirls its dusty remains. Each
+      creature within 10 feet of the demilich, including around a corner, must succeed
+      on a DC 15 Constitution saving throw or be blinded until the end of the demilich''s
+      next turn. A creature that succeeds on the saving throw is immune to this effect
+      until the end of the demilich''s next turn.
+
+
+      <b>Energy Drain (Costs 2 Actions).</b> Each creature within 30 feet of the demilich
+      must make a DC 15 Constitution saving throw. On a failed save, the creature''s
+      hit point maximum is magically reduced by 10 (3d6). If a creature''s hit point
+      maximum is reduced to 0 by this effect, the creature dies. A creature''s hit
+      point maximum can be restored with the greater restoration spell or similar
+      magic.
+
+
+      <b>Vile Curse (Costs 3 Actions).</b> The demilich targets one creature it can
+      see within 30 feet of it. The target must succeed on a DC 15 Wisdom saving throw
+      or be magically cursed. Until the curse ends, the target has disadvantage on
+      attack rolls and saving throws. The target can repeat the saving throw at the
+      end of each of its turns, ending the curse on a success.'
+  - name: Demons
+    alphabeticalname: Demons
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: NA
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: NA
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: NA
+    actions: 
+    reactions: NA
+    legendaryactions: NA
+  - name: Devils
+    alphabeticalname: Devils
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: NA
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: NA
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: NA
+    actions: 
+    reactions: NA
+    legendaryactions: NA
+  - name: Dinosaurs
+    alphabeticalname: Dinosaurs
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: NA
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: NA
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: NA
+    actions: 
+    reactions: NA
+    legendaryactions: NA
+  - name: Displacer Beast
+    alphabeticalname: Displacer Beast
+    book: MM 81
+    group: NA
+    challenge: 3
+    creaturesize: L
+    creaturealignment: LE
+    creaturetype: monstrosity
+    ac: 13
+    armournotes: natural armor
+    hp: 85
+    hd: 10d10+30
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 40
+    str: 18
+    dex: 15
+    con: 16
+    intel: 6
+    wis: 12
+    cha: 8
+    senses: Darkvision 60
+    passiveperception: 11
+    languages: NA
+    skills: NA
+    notes: "<b>Avoidance.</b> If the displacer beast is subjected to an effect that
+      allows it to make a saving throw to take only half damage, it instead takes
+      no damage if it succeeds on the saving throw, and only half damage if it fails.
+      \n\n<b>Displacement.</b> The displacer beast projects a magical illusion that
+      makes it appear to be standing near its actual location, causing attack rolls
+      against it to have disadvantage. If it is hit by an attack, this trait is disrupted
+      until the end of its next turn. This trait is also disrupted while the displacer
+      beast is incapacitated or has a speed of O."
+    actions: '<b>Multiattack.</b> The displacer beast makes two attacks with its tentacles.
+
+
+      <b>Tentacle.</b> Melee Weapon Attack: +6 to hit, reach 10, one target. Hit:
+      7 (d6+4) bludgeoning damage plus 3 (d6) piercing damage.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Doppelganger
+    alphabeticalname: Doppelganger
+    book: MM 82
+    group: NA
+    challenge: 3
+    creaturesize: N
+    creaturealignment: N
+    creaturetype: monstrosity
+    ac: 14
+    armournotes: NA
+    hp: 52
+    hd: 8d8+16
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: charmed
+    speed: 30
+    str: 11
+    dex: 18
+    con: 14
+    intel: 11
+    wis: 12
+    cha: 14
+    senses: Darkvision 60
+    passiveperception: 11
+    languages: Common
+    skills: Deception 6, Insight 3
+    notes: "<b>Shapechanger.</b> The doppelganger can use its action to polymorph
+      into a Small or Medium humanoid it has seen, or back into its true form. Its
+      statistics, other than its size, are the same in each form. Any equipment it
+      is wearing or carrying isn't transformed. It reverts to its true form if it
+      dies.\n\n<b>Ambusher.</b> The doppelganger has advantage on attack rolls against
+      any creature it has surprised.\n \n<b>Surprise Attack.</b> If the doppelganger
+      surprises a creature and hits it with an attack during the first round of combat,
+      the target takes an extra 10 (3d6) damage from the attack."
+    actions: '<b>Multiattack.</b> The doppelganger makes two melee attacks.
+
+
+      <b>Slam.</b> Melee Weapon Attack: +6 to hit, reach 5, one target. Hit: 7 (d6+4)
+      bludgeoning damage.
+
+
+      <b>Read Thoughts.</b> The doppelganger magically reads the surface thoughts
+      of one creature within 60 feet of it. The effect can penetrate barriers, but
+      3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet
+      of lead blocks it. While the target is in range, the doppelganger can continue
+      reading its thoughts, as long as the doppelganger''s concentration isn''t broken
+      (as if concentrating on a spell). While reading the target''s mind, the doppelganger
+      has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and
+      Persuasion) checks against the target.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Dracolich
+    alphabeticalname: Dracolich, Adult Blue
+    book: MM 84
+    group: NA
+    challenge: 17
+    creaturesize: H
+    creaturealignment: LE
+    creaturetype: undead
+    ac: 19
+    armournotes: natural armor
+    hp: 225
+    hd: 18d12+108
+    saves: Dex 5, Con 11, Wis 6, Cha 9
+    damagevulnerabilities: NA
+    damageresistances: necrotic
+    damageimmunities: lightning, poison
+    conditionimmunities: charmed, exhaustion, frightened, paralyzed, poisoned
+    speed: 40, burrow 30, fly 80
+    str: 25
+    dex: 10
+    con: 23
+    intel: 16
+    wis: 15
+    cha: 19
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 22
+    languages: Common, Draconic
+    skills: Perception 12, Stealth 5
+    notes: '<b>Legendary Resistance (3/Day).</b> If the dracolich fails a saving throw,
+      it can choose to succeed instead.
+
+
+      <b>Magic Resistance.</b> The dracolich has advantage on saving throws against
+      spells and other magical effects.'
+    actions: "<b>Multiattack.</b> The dracolich can use its Frightful Presence. It
+      then makes three attacks: one with its bite and two with its claws.\n\n<b>Bite.</b>
+      Melee Weapon Attack: +12 to hit, reach 10ft., one target. Hit: 18 (2d10 + 7)
+      piercing damage plus 5 (1d10) lightning damage.\n\n<b>Claw.</b> Melee Weapon
+      Attack: +1 2 to hit, reach 5 ft., one target. /4it: 14 (2d6 + 7) slashing damage.\n
+      \n<b>Tail.</b> Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:
+      16 (2d8 + 7) bludgeoning damage.\n\n<b>Frightful Presence.</b> Each creature
+      of the dracolich's choice that is within 120 feet of the dracolich and aware
+      of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1
+      minute. A creature can repeat the saving throw at the end of each of its turns,
+      ending the effect on itself on a success. If a creature's saving throw is successful
+      or the effect ends for it, the creature is immune to the dracolich's Frightful
+      Presence for the next 24 hours.\n\n<b>Lightning Breath (Recharge 5-6).</b> The
+      dracolich exhales lightning in a 90-foot line that is 5 feet wide. Each creature
+      in that line must make a DC 20 Dexterity saving throw, taking 66 (12d10) lightning
+      damage on a failed save, or half as much damage on a successful one."
+    reactions: NA
+    legendaryactions: "The dracolich can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature's turn. The dracolich regains spent legendary
+      actions at the start of its turn.\n\n<b>Detect.</b> The dracolich makes a Wisdom
+      (Perception) check.\n\n<b>Tail Attack.</b> The dracolich makes a tail attack.
+      \n\n<b>Wing Attack (Costs 2 Actions).</b> The dracolich beats its tattered wings.
+      Each creature within 10 feet of the dracolich must succeed on a DC 21 Dexterity
+      saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. After
+      beating its wings this way, the dracolich can fly up to half its flying speed."
+  - name: Dragon, Shadow
+    alphabeticalname: Young Red Shadow Dragon
+    book: MM 85
+    group: Shadow Dragons
+    challenge: 13
+    creaturesize: L
+    creaturealignment: CE
+    creaturetype: dragon
+    ac: 18
+    armournotes: natural armor
+    hp: 178
+    hd: 17d10+85
+    saves: Dex 4, Con 9, Wis 4, Cha 8
+    damagevulnerabilities: NA
+    damageresistances: necrotic
+    damageimmunities: fire
+    conditionimmunities: NA
+    speed: 40, climb 40, fly 80
+    str: 23
+    dex: 10
+    con: 21
+    intel: 14
+    wis: 11
+    cha: 19
+    senses: Blindsight 30, darkvision 120
+    passiveperception: 18
+    languages: Common, Draconic
+    skills: Perception 8, Stealth 8
+    notes: "<b>Living Shadow.</b> While in dim light or darkness, the dragon has resistance
+      to damage that isn't force, psychic, or radiant.\n\n<b>Shadow Stealth.</b> While
+      in dim light or darkness, the dragon can take the Hide action as a bonus action.
+      \n\n<b>Sunlight Sensitivity.</b> While in sunlight, the dragon has disadvantage
+      on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    actions: '<b>Multiattack.<b> The dragon makes three attacks: one with its bite
+      and two with its claws.
+
+
+      <b>Bite.<b> Melee Weapon Attack: +10 to hit, reach 10ft., one target. Hit: 17
+      (2d10 + 6) piercing damage plus 3 (1d6) necrotic damage.
+
+
+      <b>Claw.<b> Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13
+      (2d6 + 6) slashing damage.
+
+
+      <b>Shadow Breath (Recharge 5-6).<b> The dragon exhales shadowy fire in a 30-foot
+      cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking
+      56 (16d6) necrotic damage on a failed save, or half as much damage on a successful
+      one. A humanoid reduced to 0 hit points by this damage dies, and an undead shadow
+      rises from its corpse and acts immediately after the dragon in the initiative
+      count. The shadow is under the dragon''s control.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Ancient Black Dragon
+    alphabeticalname: Dragon, Ancient Black
+    book: MM 87
+    group: Dragons
+    challenge: 21
+    creaturesize: G
+    creaturealignment: CE
+    creaturetype: dragon
+    ac: 22
+    armournotes: natural armor
+    hp: 367
+    hd: 21d20+147
+    saves: Dex 9, Con 14, Wis 9, Cha 11
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: acid
+    conditionimmunities: NA
+    speed: 40, fly 80, swim 40
+    str: 27
+    dex: 14
+    con: 25
+    intel: 16
+    wis: 15
+    cha: 19
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 26
+    languages: Common, Draconic
+    skills: Perception 16, Stealth 9
+    notes: '<b>Amphibious.</b> The dragon can breathe air and water.
+
+
+      <b>Legendary Resistance (3/Day).</b> If the dragon fails a saving throw, it
+      can choose to succeed instead.'
+    actions: "<b>Multiattack.</b> The dragon can use its Frightful Presence. It then
+      makes three attacks: one with its bite and two with its claws.\n \n<b>Bite.</b>
+      Melee Weapon Attack:+ 15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8)
+      piercing damage plus 9 (2d8) acid damage.\n\n<b>Claw.</b> Melee Weapon Attack:
+      +15 to hit, reach 10ft., on'e target. Hit: 15 (2d6 + 8) slashing damage.\n\n<b>Tail.</b>
+      Melee Weapon Attack:+ 15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8)
+      bludgeoning damage.\n\n<b>Frightful Presence.</b> Each creature of the dragon's
+      choice that is within 120 feet ofthe dragon and aware of it must succeed on
+      a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can
+      repeat the saving throw at the end of each of its turns, ending the effect on
+      itself on a success. If a creature's saving throw is successful or the effect
+      ends for it, the creature is immune to the dragon's Frightful Presence for the
+      next 24 hours.\n\n<b>Acid Breath (Recharge 5-6).</b> The dragon exhales acid
+      in a 90-foot line that is 10 feet wide. Each creature in that line must make
+      a DC 22 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save,
+      or half as much damage on a successful one."
+    reactions: NA
+    legendaryactions: 'The dragon can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature''s turn. The dragon regains spent legendary actions
+      at the start of its turn.
+
+
+      <b>Detect.</b> The dragon makes a Wisdom (Perception) check.
+
+
+      <b>Tail Attack.</b> The dragon makes a tail attack.
+
+
+      <b>Wing Attack (Costs 2 Actions).</b> The dragon beats its wings. Each creature
+      within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw
+      or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can
+      then fly up to half its flying speed.'
+  - name: Adult Black Dragon
+    alphabeticalname: Dragon, Adult Black Dragon
+    book: MM88
+    group: Dragons
+    challenge: 14
+    creaturesize: H
+    creaturealignment: CE
+    creaturetype: dragon
+    ac: 19
+    armournotes: natural armor
+    hp: 195
+    hd: 17d12+85
+    saves: Dex 7, Con 10, Wis 6, Cha 8
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: acid
+    conditionimmunities: NA
+    speed: 40, fly 80, swim 40
+    str: 23
+    dex: 14
+    con: 21
+    intel: 14
+    wis: 13
+    cha: 17
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 21
+    languages: Common, Draconic
+    skills: Perception 11, Stealth 7
+    notes: '<b>Amphibious.<b> The dragon can breathe air and water.
+
+
+      <b>Legendary Resistance (3/Day).<b> If the dragon fails a saving throw, it can
+      choose to succeed instead.'
+    actions: "<b>Multiattack.</b> The dragon can use its Frightful Presence. It then
+      makes three attacks: one with its bite and two with its claws.\n \n<b>Bite.</b>
+      Melee Weapon Attack:+ 11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6)
+      piercing damage plus 9 (2d8) acid damage.\n\n<b>Claw.</b> Melee Weapon Attack:
+      +11 to hit, reach 5ft., on'e target. Hit: 13 (2d6 + 6) slashing damage.\n\n<b>Tail.</b>
+      Melee Weapon Attack:+ 11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6)
+      bludgeoning damage.\n\n<b>Frightful Presence.</b> Each creature of the dragon's
+      choice that is within 120 feet ofthe dragon and aware of it must succeed on
+      a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can
+      repeat the saving throw at the end of each of its turns, ending the effect on
+      itself on a success. If a creature's saving throw is successful or the effect
+      ends for it, the creature is immune to the dragon's Frightful Presence for the
+      next 24 hours.\n\n<b>Acid Breath (Recharge 5-6).</b> The dragon exhales acid
+      in a 60-foot line that is 5 feet wide. Each creature in that line must make
+      a DC 22 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save,
+      or half as much damage on a successful one."
+    reactions: NA
+    legendaryactions: 'The dragon can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature''s turn. The dragon regains spent legendary actions
+      at the start of its turn.
+
+
+      <b>Detect.</b> The dragon makes a Wisdom (Perception) check.
+
+
+      <b>Tail Attack.</b> The dragon makes a tail attack.
+
+
+      <b>Wing Attack (Costs 2 Actions).</b> The dragon beats its wings. Each creature
+      within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw
+      or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can
+      then fly up to half its flying speed.'
+  - name: Young Black Dragon
+    alphabeticalname: Dragon, Young Black Dragon
+    book: MM88
+    group: Dragons
+    challenge: 7
+    creaturesize: L
+    creaturealignment: CE
+    creaturetype: dragon
+    ac: 18
+    armournotes: natural armor
+    hp: 127
+    hd: 15d10+45
+    saves: Dex 5, Con 6, Wis 3, Cha 5
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: acid
+    conditionimmunities: NA
+    speed: 40, fly 80, swim 40
+    str: 19
+    dex: 14
+    con: 17
+    intel: 12
+    wis: 11
+    cha: 15
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 16
+    languages: Common, Draconic
+    skills: Perception 6, Stealth 5
+    notes: <b>Amphibious.</b> The dragon can breathe air and water.
+    actions: "<b>Multiattack.</b> The dragon can use its Frightful Presence. It then
+      makes three attacks: one with its bite and two with its claws.\n \n<b>Bite.</b>
+      Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4)
+      piercing damage +4 (d8) acid damage.\n\n<b>Claw.</b> Melee Weapon Attack: +7
+      to hit, reach 5ft., one target. Hit: 11 (2d6 + 4) slashing damage.\n\n<b>Acid
+      Breath (Recharge 5-6).</b> The dragon exhales acid in a 30-foot line that is
+      5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw,
+      taking 49 (11d8) acid damage on a failed save, or half as much damage on a successful
+      one."
+    reactions: NA
+    legendaryactions: NA
+  - name: Black Dragon Wyrmling
+    alphabeticalname: Dragon, Black Dragon Wyrmling
+    book: MM88
+    group: Dragons
+    challenge: 2
+    creaturesize: M
+    creaturealignment: CE
+    creaturetype: dragon
+    ac: 17
+    armournotes: natural armor
+    hp: 33
+    hd: 6d8+6
+    saves: Dex 4, Con 3, Wis 2, Cha 3
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: acid
+    conditionimmunities: NA
+    speed: 30, fly 60, swim 30
+    str: 15
+    dex: 14
+    con: 13
+    intel: 10
+    wis: 11
+    cha: 13
+    senses: Blindsight 10, darkvision 60
+    passiveperception: 14
+    languages: Draconic
+    skills: Perception 4, Stealth 4
+    notes: <b>Amphibious.</b> The dragon can breathe air and water.
+    actions: '<b>Bite.</b> Melee Weapon Attack: +4 to hit, reach 5 ft., one target.
+      Hit: 7 (d10 + 2) piercing damage +2 (d4) acid damage.
+
+
+      <b>Acid Breath (Recharge 5-6).</b> The dragon exhales acid in a 15-foot line
+      that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity
+      saving throw, taking 22 (5d8) acid damage on a failed save, or half as much
+      damage on a successful one.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Ancient Blue Dragon
+    alphabeticalname: Dragon, Ancient Blue
+    book: MM 90
+    group: Dragons
+    challenge: 23
+    creaturesize: G
+    creaturealignment: LE
+    creaturetype: dragon
+    ac: 22
+    armournotes: natural armor
+    hp: 481
+    hd: 26d10+208
+    saves: Dex 7, Con 15, Wis 10, Cha 12
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: lightning
+    conditionimmunities: NA
+    speed: 40, fly 80, burrow 40
+    str: 29
+    dex: 10
+    con: 27
+    intel: 18
+    wis: 17
+    cha: 21
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 27
+    languages: Common, Draconic
+    skills: Perception 17, Stealth 7
+    notes: <b>Legendary Resistance (3/Day).</b> If the dragon fails a saving throw,
+      it can choose to succeed instead.
+    actions: "<b>Multiattack.</b> The dragon can use its Frightful Presence. It then
+      makes three attacks: one with its bite and two with its claws.\n \n<b>Bite.</b>
+      Melee Weapon Attack:+ 16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9)
+      piercing damage plus 11 (2d10) lightning damage.\n\n<b>Claw.</b> Melee Weapon
+      Attack: +16 to hit, reach 10ft., on'e target. Hit: 16 (2d6 + 9) slashing damage.\n\n<b>Tail.</b>
+      Melee Weapon Attack:+ 16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9)
+      bludgeoning damage.\n\n<b>Frightful Presence.</b> Each creature of the dragon's
+      choice that is within 120 feet of the dragon and aware of it must succeed on
+      a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can
+      repeat the saving throw at the end of each of its turns, ending the effect on
+      itself on a success. If a creature's saving throw is successful or the effect
+      ends for it, the creature is immune to the dragon's Frightful Presence for the
+      next 24 hours.\n\n<b>Lightning Breath (Recharge 5-6).</b> The dragon exhales
+      lightning in a 120-foot line that is 10 feet wide. Each creature in that line
+      must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage
+      on a failed save, or half as much damage on a successful one."
+    reactions: NA
+    legendaryactions: 'The dragon can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature''s turn. The dragon regains spent legendary actions
+      at the start of its turn.
+
+
+      <b>Detect.</b> The dragon makes a Wisdom (Perception) check.
+
+
+      <b>Tail Attack.</b> The dragon makes a tail attack.
+
+
+      <b>Wing Attack (Costs 2 Actions).</b> The dragon beats its wings. Each creature
+      within 15 feet of the dragon must succeed on a DC 24 Dexterity saving throw
+      or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can
+      then fly up to half its flying speed.'
+  - name: Adult Blue Dragon
+    alphabeticalname: Dragon, Adult Blue
+    book: MM 91
+    group: Dragons
+    challenge: 16
+    creaturesize: H
+    creaturealignment: LE
+    creaturetype: dragon
+    ac: 19
+    armournotes: natural armor
+    hp: 225
+    hd: 18d12+108
+    saves: Dex 5, Con 11, Wis 7, Cha 9
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: lightning
+    conditionimmunities: NA
+    speed: 40, fly 80, burrow 30
+    str: 25
+    dex: 10
+    con: 23
+    intel: 16
+    wis: 15
+    cha: 19
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 22
+    languages: Common, Draconic
+    skills: Perception 12, Stealth 5
+    notes: <b>Legendary Resistance (3/Day).</b> If the dragon fails a saving throw,
+      it can choose to succeed instead.
+    actions: "<b>Multiattack.</b> The dragon can use its Frightful Presence. It then
+      makes three attacks: one with its bite and two with its claws.\n \n<b>Bite.</b>
+      Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7)
+      piercing damage plus 5 (d10) lightning damage.\n\n<b>Claw.</b> Melee Weapon
+      Attack: +12 to hit, reach 5ft., on'e target. Hit: 14 (2d6 + 7) slashing damage.\n\n<b>Tail.</b>
+      Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7)
+      bludgeoning damage.\n\n<b>Frightful Presence.</b> Each creature of the dragon's
+      choice that is within 120 feet of the dragon and aware of it must succeed on
+      a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can
+      repeat the saving throw at the end of each of its turns, ending the effect on
+      itself on a success. If a creature's saving throw is successful or the effect
+      ends for it, the creature is immune to the dragon's Frightful Presence for the
+      next 24 hours.\n\n<b>Lightning Breath (Recharge 5-6).</b> The dragon exhales
+      lightning in a 90-foot line that is 5 feet wide. Each creature in that line
+      must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage
+      on a failed save, or half as much damage on a successful one."
+    reactions: NA
+    legendaryactions: 'The dragon can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature''s turn. The dragon regains spent legendary actions
+      at the start of its turn.
+
+
+      <b>Detect.</b> The dragon makes a Wisdom (Perception) check.
+
+
+      <b>Tail Attack.</b> The dragon makes a tail attack.
+
+
+      <b>Wing Attack (Costs 2 Actions).</b> The dragon beats its wings. Each creature
+      within 10 feet of the dragon must succeed on a DC 20 Dexterity saving throw
+      or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can
+      then fly up to half its flying speed.'
+  - name: Young Blue Dragon
+    alphabeticalname: Dragon, Young Blue
+    book: MM 91
+    group: Dragons
+    challenge: 9
+    creaturesize: L
+    creaturealignment: LE
+    creaturetype: dragon
+    ac: 18
+    armournotes: natural armor
+    hp: 152
+    hd: 16d10+64
+    saves: Dex 4, Con 8, Wis 5, Cha 7
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: lightning
+    conditionimmunities: NA
+    speed: 40, fly 80, burrow 20
+    str: 21
+    dex: 10
+    con: 19
+    intel: 14
+    wis: 13
+    cha: 17
+    senses: Blindsight 30, darkvision 120
+    passiveperception: 19
+    languages: Common, Draconic
+    skills: Perception 9, Stealth 4
+    notes: NA
+    actions: "<b>Multiattack.</b> 3 attacks: 1 bite, 2 claws.\n \n<b>Bite.</b> Melee
+      Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing
+      damage plus 5 (d10) lightning damage.\n\n<b>Claw.</b> Melee Weapon Attack: +9
+      to hit, reach 5ft., on'e target. Hit: 12 (2d6 + 5) slashing damage.\n\n<b>Lightning
+      Breath (Recharge 5-6).</b> The dragon exhales lightning in a 60-foot line that
+      is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving
+      throw, taking 55 (10d10) lightning damage on a failed save, or half as much
+      damage on a successful one."
+    reactions: NA
+    legendaryactions: NA
+  - name: Blue Dragon Wyrmling
+    alphabeticalname: Dragon, Blue Dragon Wyrmling
+    book: MM 91
+    group: Dragons
+    challenge: 3
+    creaturesize: M
+    creaturealignment: LE
+    creaturetype: dragon
+    ac: 17
+    armournotes: natural armor
+    hp: 52
+    hd: 8d8+16
+    saves: Dex 2, Con 4, Wis 2, Cha 4
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: lightning
+    conditionimmunities: NA
+    speed: 30, fly 60, burrow 15
+    str: 17
+    dex: 10
+    con: 15
+    intel: 12
+    wis: 11
+    cha: 15
+    senses: Blindsight 10, darkvision 60
+    passiveperception: 14
+    languages: Draconic
+    skills: Perception 4, Stealth 2
+    notes: NA
+    actions: '<b>Bite.</b> Melee Weapon Attack: +5 to hit, reach 5 ft., one target.
+      Hit: 8 (d10 + 3) piercing damage +3 (d6) lightning damage.
+
+
+      <b>Lightning Breath (Recharge 5-6).</b> The dragon exhales lightning in a 30-foot
+      line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity
+      saving throw, taking 22 (4d10) lightning damage on a failed save, or half as
+      much damage on a successful one.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Ancient Green Dragon
+    alphabeticalname: Dragon, Ancient Green
+    book: MM 93
+    group: Dragons
+    challenge: 22
+    creaturesize: G
+    creaturealignment: LE
+    creaturetype: dragon
+    ac: 21
+    armournotes: natural armor
+    hp: 385
+    hd: 122d20+154
+    saves: Dex 8, Con 14, Wis 10, Cha 11
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: poison
+    conditionimmunities: Poisoned
+    speed: 40, fly 80, swim 40
+    str: 27
+    dex: 12
+    con: 25
+    intel: 20
+    wis: 17
+    cha: 19
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 27
+    languages: Common, Draconic
+    skills: Deception 11, Insight 10, Perception 17, Persuasion 11, Stealth 8
+    notes: '<b>Amphibious.</b> The dragon can breathe air and water.
+
+
+      <b>Legendary Resistance (3/Day).</b> If the dragon fails a saving throw, it
+      can choose to succeed instead.'
+    actions: "<b>Multiattack.</b> The dragon can use its Frightful Presence. It then
+      makes three attacks: one with its bite and two with its claws.\n \n<b>Bite.</b>
+      Melee Weapon Attack:+ 15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8)
+      piercing damage plus 10 (3d6) poison damage.\n\n<b>Claw.</b> Melee Weapon Attack:
+      +15 to hit, reach 10ft., on'e target. Hit: 22 (4d6 + 8) slashing damage.\n\n<b>Tail.</b>
+      Melee Weapon Attack:+ 15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8)
+      bludgeoning damage.\n\n<b>Frightful Presence.</b> Each creature of the dragon's
+      choice that is within 120 feet of the dragon and aware of it must succeed on
+      a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can
+      repeat the saving throw at the end of each of its turns, ending the effect on
+      itself on a success. If a creature's saving throw is successful or the effect
+      ends for it, the creature is immune to the dragon's Frightful Presence for the
+      next 24 hours.\n\n<b>Poison Breath (Recharge 5-6).</b> The dragon exhales lightning
+      in a 90-foot cone. Each creature in that line must make a DC 22 Con saving throw,
+      taking 77 (22d6) poison damage on a failed save, or half as much damage on a
+      successful one."
+    reactions: NA
+    legendaryactions: 'The dragon can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature''s turn. The dragon regains spent legendary actions
+      at the start of its turn.
+
+
+      <b>Detect.</b> The dragon makes a Wisdom (Perception) check.
+
+
+      <b>Tail Attack.</b> The dragon makes a tail attack.
+
+
+      <b>Wing Attack (Costs 2 Actions).</b> The dragon beats its wings. Each creature
+      within 15 feet of the dragon must succeed on a DC 24 Dexterity saving throw
+      or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can
+      then fly up to half its flying speed.'
+  - name: Adult Green Dragon
+    alphabeticalname: Dragon, Adult Green
+    book: MM 94
+    group: Dragons
+    challenge: 15
+    creaturesize: H
+    creaturealignment: LE
+    creaturetype: dragon
+    ac: 19
+    armournotes: natural armor
+    hp: 207
+    hd: 18d12+90
+    saves: Dex 6, Con 10, Wis 7, Cha 8
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: poison
+    conditionimmunities: Poisoned
+    speed: 40, fly 80, swim 40
+    str: 23
+    dex: 12
+    con: 21
+    intel: 18
+    wis: 15
+    cha: 17
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 22
+    languages: Common, Draconic
+    skills: Deception 8, Insight 7, Perception 12, Persuasion 8, Stealth 6
+    notes: '<b>Amphibious.</b> The dragon can breathe air and water.
+
+
+      <b>Legendary Resistance (3/Day).</b> If the dragon fails a saving throw, it
+      can choose to succeed instead.'
+    actions: "<b>Multiattack.</b> The dragon can use its Frightful Presence. It then
+      makes three attacks: one with its bite and two with its claws.\n \n<b>Bite.</b>
+      Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6)
+      piercing damage plus 7 (2d6) poison damage.\n\n<b>Claw.</b> Melee Weapon Attack:
+      +11 to hit, reach 5ft., one target. Hit: 13 (2d6 + 6) slashing damage.\n\n<b>Tail.</b>
+      Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6)
+      bludgeoning damage.\n\n<b>Frightful Presence.</b> Each creature of the dragon's
+      choice that is within 120 feet of the dragon and aware of it must succeed on
+      a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can
+      repeat the saving throw at the end of each of its turns, ending the effect on
+      itself on a success. If a creature's saving throw is successful or the effect
+      ends for it, the creature is immune to the dragon's Frightful Presence for the
+      next 24 hours.\n\n<b>Poison Breath (Recharge 5-6).</b> The dragon exhales lightning
+      in a 60-foot cone. Each creature in that line must make a DC 18 Con saving throw,
+      taking 56 (16d6) poison damage on a failed save, or half as much damage on a
+      successful one."
+    reactions: NA
+    legendaryactions: 'The dragon can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature''s turn. The dragon regains spent legendary actions
+      at the start of its turn.
+
+
+      <b>Detect.</b> The dragon makes a Wisdom (Perception) check.
+
+
+      <b>Tail Attack.</b> The dragon makes a tail attack.
+
+
+      <b>Wing Attack (Costs 2 Actions).</b> The dragon beats its wings. Each creature
+      within 15 feet of the dragon must succeed on a DC 24 Dexterity saving throw
+      or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can
+      then fly up to half its flying speed.'
+  - name: Young Green Dragon
+    alphabeticalname: Dragon, Young Green
+    book: MM 94
+    group: Dragons
+    challenge: 8
+    creaturesize: L
+    creaturealignment: LE
+    creaturetype: dragon
+    ac: 18
+    armournotes: natural armor
+    hp: 136
+    hd: 16d10+48
+    saves: Dex 4, Con 6, Wis 4, Cha 5
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: poison
+    conditionimmunities: Poisoned
+    speed: 40, fly 80, swim 40
+    str: 19
+    dex: 12
+    con: 17
+    intel: 16
+    wis: 13
+    cha: 15
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 17
+    languages: Common, Draconic
+    skills: Deception 5, Perception 7, Persuasion 7, Stealth 4
+    notes: <b>Amphibious.</b> The dragon can breathe air and water.
+    actions: "<b>Multiattack.</b> The dragon makes three attacks: one with its bite
+      and two with its claws.\n \n<b>Bite.</b> Melee Weapon Attack: +7 to hit, reach
+      10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage.\n\n<b>Claw.</b>
+      Melee Weapon Attack: +7 to hit, reach 5ft., one target. Hit: 11 (2d6 + 4) slashing
+      damage.\n\n<b>Poison Breath (Recharge 5-6).</b> The dragon exhales lightning
+      in a 30-foot cone. Each creature in that line must make a DC 14 Con saving throw,
+      taking 42 (12d6) poison damage on a failed save, or half as much damage on a
+      successful one."
+    reactions: NA
+    legendaryactions: NA
+  - name: Wyrmling Green Dragon
+    alphabeticalname: Dragon, Wirmling Green
+    book: MM 95
+    group: Dragons
+    challenge: 2
+    creaturesize: M
+    creaturealignment: LE
+    creaturetype: dragon
+    ac: 17
+    armournotes: natural armor
+    hp: 38
+    hd: 7d8+7
+    saves: Dex 3, Con 3, Wis 2, Cha 3
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: poison
+    conditionimmunities: Poisoned
+    speed: 30, fly 60, swim 30
+    str: 15
+    dex: 12
+    con: 13
+    intel: 14
+    wis: 11
+    cha: 13
+    senses: Blindsight 10, darkvision 60
+    passiveperception: 14
+    languages: Draconic
+    skills: Perception 4, Stealth 3
+    notes: <b>Amphibious.</b> The dragon can breathe air and water.
+    actions: '<b>Bite.</b> Melee Weapon Attack: +4 to hit, reach 5 ft., one target.
+      Hit: 7 (d10 + 2) piercing damage plus 3 (d6) poison damage.
+
+
+      <b>Poison Breath (Recharge 5-6).</b> The dragon exhales lightning in a 15-foot
+      cone. Each creature in that line must make a DC 11 Con saving throw, taking
+      21 (6d6) poison damage on a failed save, or half as much damage on a successful
+      one.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Ancient Red Dragon
+    alphabeticalname: Dragon, Ancient Red
+    book: MM97
+    group: Dragons
+    challenge: 24
+    creaturesize: G
+    creaturealignment: CE
+    creaturetype: dragon
+    ac: 22
+    armournotes: natural
+    hp: 546
+    hd: 28d20+252
+    saves: Dex 7, Con 16, Wis 9, Cha 13
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: fire
+    conditionimmunities: NA
+    speed: 40, fly 80, climb 40
+    str: 30
+    dex: 10
+    con: 29
+    intel: 18
+    wis: 15
+    cha: 23
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 26
+    languages: Common, Draconic
+    skills: Perception 16, Stealth 7
+    notes: <b>Legendary Resistance (3/Day).</b> If the dragon fails a saving throw,
+      it can choose to succeed instead.
+    actions: "<b>Multiattack.</b> The dragon can use its Frightful Presence. It then
+      makes three attacks: one with its bite and two with its claws.\n \n<b>Bite.</b>
+      Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10)
+      piercing damage plus 14 (4d6) fire damage.\n\n<b>Claw.</b> Melee Weapon Attack:
+      +17 to hit, reach 10ft., one target. Hit: 17 (2d6 + 10) slashing damage.\n\n<b>Tail.</b>
+      Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8 + 10)
+      bludgeoning damage.\n\n<b>Frightful Presence.</b> Each creature of the dragon's
+      choice that is within 120 feet of the dragon and aware of it must succeed on
+      a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can
+      repeat the saving throw at the end of each of its turns, ending the effect on
+      itself on a success. If a creature's saving throw is successful or the effect
+      ends for it, the creature is immune to the dragon's Frightful Presence for the
+      next 24 hours.\n\n<b>Fire Breath (Recharge 5-6).</b> The dragon exhales lightning
+      in a 90-foot cone. Each creature in that line must make a DC 24 Dex saving throw,
+      taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful
+      one."
+    reactions: NA
+    legendaryactions: 'The dragon can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature''s turn. The dragon regains spent legendary actions
+      at the start of its turn.
+
+
+      <b>Detect.</b> The dragon makes a Wisdom (Perception) check.
+
+
+      <b>Tail Attack.</b> The dragon makes a tail attack.
+
+
+      <b>Wing Attack (Costs 2 Actions).</b> The dragon beats its wings. Each creature
+      within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw
+      or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can
+      then fly up to half its flying speed.'
+  - name: Adult Red Dragon
+    alphabeticalname: Dragon, Adult Red
+    book: MM 97
+    group: Dragons
+    challenge: 24
+    creaturesize: G
+    creaturealignment: CE
+    creaturetype: dragon
+    ac: 22
+    armournotes: natural armor
+    hp: 546
+    hd: 28d20+252
+    saves: Dex 7, Con 16, Wis 9, Cha 13
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: fire
+    conditionimmunities: NA
+    speed: 40, fly 80, climb 40
+    str: 30
+    dex: 10
+    con: 29
+    intel: 18
+    wis: 15
+    cha: 23
+    senses: Blindsight 60, darkvision 120
+    passiveperception: 26
+    languages: Common, Draconic
+    skills: Perception 16, Stealth 7
+    notes: <b>Legendary Resistance (3/Day).</b> If the dragon fails a saving throw,
+      it can choose to succeed instead.
+    actions: "<b>Multiattack.</b> The dragon can use its Frightful Presence. It then
+      makes three attacks: one with its bite and two with its claws.\n \n<b>Bite.</b>
+      Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8)
+      piercing damage plus 7 (2d6) fire damage.\n\n<b>Claw.</b> Melee Weapon Attack:
+      +14 to hit, reach 5ft., one target. Hit: 15 (2d6 + 8) slashing damage.\n\n<b>Tail.</b>
+      Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8)
+      bludgeoning damage.\n\n<b>Frightful Presence.</b> Each creature of the dragon's
+      choice that is within 120 feet of the dragon and aware of it must succeed on
+      a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can
+      repeat the saving throw at the end of each of its turns, ending the effect on
+      itself on a success. If a creature's saving throw is successful or the effect
+      ends for it, the creature is immune to the dragon's Frightful Presence for the
+      next 24 hours.\n\n<b>Fire Breath (Recharge 5-6).</b> The dragon exhales lightning
+      in a 60-foot cone. Each creature in that line must make a DC 21 Dex saving throw,
+      taking 63 (18d6) fire damage on a failed save, or half as much damage on a successful
+      one."
+    reactions: NA
+    legendaryactions: 'The dragon can take 3 legendary actions, choosing from the
+      options below. Only one legendary action option can be used at a time and only
+      at the end of another creature''s turn. The dragon regains spent legendary actions
+      at the start of its turn.
+
+
+      <b>Detect.</b> The dragon makes a Wisdom (Perception) check.
+
+
+      <b>Tail Attack.</b> The dragon makes a tail attack.
+
+
+      <b>Wing Attack (Costs 2 Actions).</b> The dragon beats its wings. Each creature
+      within 10 feet of the dragon must succeed on a DC 22 Dexterity saving throw
+      or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can
+      then fly up to half its flying speed.'
+  - name: Dragons
+    alphabeticalname: Dragons
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Dragon Turtle
+    alphabeticalname: Dragon Turtle
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Drider
+    alphabeticalname: Drider
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Dryad
+    alphabeticalname: Dryad
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Duergar
+    alphabeticalname: Duergar
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Elementals
+    alphabeticalname: Elementals
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: 'Elves: Drow'
+    alphabeticalname: 'Elves: Drow'
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Emyrean
+    alphabeticalname: Emyrean
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Ettercap
+    alphabeticalname: Ettercap
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Ettin
+    alphabeticalname: Ettin
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Faerie Dragon
+    alphabeticalname: Faerie Dragon
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Flameskull
+    alphabeticalname: Flameskull
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Flumph
+    alphabeticalname: Flumph
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Fomorian
+    alphabeticalname: Fomorian
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Fungi
+    alphabeticalname: Fungi
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Galeb Duhr
+    alphabeticalname: Galeb Duhr
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Gargoyle
+    alphabeticalname: Gargoyle
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Genies
+    alphabeticalname: Genies
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Ghost
+    alphabeticalname: Ghost
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Ghouls
+    alphabeticalname: Ghouls
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Giants
+    alphabeticalname: Giants
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Gibbering Mouther
+    alphabeticalname: Gibbering Mouther
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Gith
+    alphabeticalname: Gith
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Gnolls
+    alphabeticalname: Gnolls
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Gnome, Deep
+    alphabeticalname: Gnome, Deep
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Goblin
+    alphabeticalname: Goblins
+    book: MM 166
+    group: Goblin
+    challenge: 1/4
+    creaturesize: S
+    creaturealignment: NE
+    creaturetype: Goblinoid
+    ac: 15
+    armournotes: Leather Armour, shield
+    hp: 7
+    hd: 2d6
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 30
+    str: 8
+    dex: 14
+    con: 10
+    intel: 10
+    wis: 8
+    cha: 8
+    senses: Darkvision 60
+    passiveperception: 9
+    languages: Common, Goblin
+    skills: Stealth 6
+    notes: <b>Nimble Escape.</b> The goblin can take the Disengage or Hide action
+      as a bonus action on each of its turns.
+    actions: '<b>Goblin blade.</b> +4 to hit, reach 5, one target. Hit: 5 (d6+2) slashing
+      damage.
+
+
+      <b>Shortbow.</b> +4 to hit, range 80/320, one target. Hit: 5 (d6+2) piercing
+      damage.'
+    reactions: NA
+    legendaryactions: NA
+  - name: Goblin Boss
+    alphabeticalname: Goblins, Boss
+    book: MM 166
+    group: Goblin
+    challenge: 1
+    creaturesize: S
+    creaturealignment: NE
+    creaturetype: Goblinoid
+    ac: 17
+    armournotes: Chain Shirt, shield
+    hp: 21
+    hd: 6d6
+    saves: NA
+    damagevulnerabilities: NA
+    damageresistances: NA
+    damageimmunities: NA
+    conditionimmunities: NA
+    speed: 30
+    str: 10
+    dex: 14
+    con: 10
+    intel: 10
+    wis: 8
+    cha: 10
+    senses: Darkvision 60
+    passiveperception: 9
+    languages: Common, Goblin
+    skills: Stealth 6
+    notes: <b>Nimble Escape.</b> The goblin can take the Disengage or Hide action
+      as a bonus action on each of its turns.
+    actions: "<b>Multiattack.</b> The goblin makes two attacks with its scimitar.
+      The second attack has disadvantage. \n\n<b>Scimitar.</b> Melee Weapon Attack:
+      +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage. \n\n<b>Javelin.</b>
+      Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one
+      target. Hit: 5 (1d6 + 2) piercing damage."
+    reactions: <b>Redirect Attack.</b> When a creature the goblin can see targets
+      it with an attack, the goblin chooses another goblin within 5 feet of it. The
+      two goblins swap places, and the chosen goblin becomes the target instead.
+    legendaryactions: NA
+  - name: Golems
+    alphabeticalname: Golems
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Gorgon
+    alphabeticalname: Gorgon
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Grell
+    alphabeticalname: Grell
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Grick
+    alphabeticalname: Grick
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Griffin
+    alphabeticalname: Griffin
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Grimlock
+    alphabeticalname: Grimlock
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Hags
+    alphabeticalname: Hags
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Half-Dragon
+    alphabeticalname: Half-Dragon
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Harpy
+    alphabeticalname: Harpy
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Hell Hounds
+    alphabeticalname: Hell Hounds
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Helmed Horro
+    alphabeticalname: Helmed Horro
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Hippogriff
+    alphabeticalname: Hippogriff
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Hobgoblins
+    alphabeticalname: Hobgoblins
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Homonculus
+    alphabeticalname: Homonculus
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Hook Horror
+    alphabeticalname: Hook Horror
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Hydra
+    alphabeticalname: Hydra
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Intellect Devourer
+    alphabeticalname: Intellect Devourer
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Invisible Stalker
+    alphabeticalname: Invisible Stalker
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Jackalwere
+    alphabeticalname: Jackalwere
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Kenku
+    alphabeticalname: Kenku
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Kobolds
+    alphabeticalname: Kobolds
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Kraken
+    alphabeticalname: Kraken
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Kuo-toa
+    alphabeticalname: Kuo-toa
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Lamia
+    alphabeticalname: Lamia
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Lich
+    alphabeticalname: Lich
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Lizardfolk
+    alphabeticalname: Lizardfolk
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Lycanthropes
+    alphabeticalname: Lycanthropes
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Magnim
+    alphabeticalname: Magnim
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Manticore
+    alphabeticalname: Manticore
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Medusa
+    alphabeticalname: Medusa
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Mephits
+    alphabeticalname: Mephits
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Merfolk
+    alphabeticalname: Merfolk
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Merrow
+    alphabeticalname: Merrow
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Mimic
+    alphabeticalname: Mimic
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Mind Flayer
+    alphabeticalname: Mind Flayer
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Minotaur
+    alphabeticalname: Minotaur
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Modrons
+    alphabeticalname: Modrons
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Mummies
+    alphabeticalname: Mummies
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Myconids
+    alphabeticalname: Myconids
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Nagas
+    alphabeticalname: Nagas
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Nightmare
+    alphabeticalname: Nightmare
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Nothic
+    alphabeticalname: Nothic
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Ogres
+    alphabeticalname: Ogres
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Oni
+    alphabeticalname: Oni
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Oozes
+    alphabeticalname: Oozes
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Orcs
+    alphabeticalname: Orcs
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Otyugh
+    alphabeticalname: Otyugh
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Owlbear
+    alphabeticalname: Owlbear
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Pegasus
+    alphabeticalname: Pegasus
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Peryton
+    alphabeticalname: Peryton
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Piercer
+    alphabeticalname: Piercer
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Pixid
+    alphabeticalname: Pixid
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Pseudodragon
+    alphabeticalname: Pseudodragon
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Purple Worm
+    alphabeticalname: Purple Worm
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Quaggoth
+    alphabeticalname: Quaggoth
+    book: 256
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Rakshasa
+    alphabeticalname: Rakshasa
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Remorhazes
+    alphabeticalname: Remorhazes
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Revenant
+    alphabeticalname: Revenant
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Roc
+    alphabeticalname: Roc
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Roper
+    alphabeticalname: Roper
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Rust Monster
+    alphabeticalname: Rust Monster
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Sahuagin
+    alphabeticalname: Sahuagin
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Salamanders
+    alphabeticalname: Salamanders
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Satyr
+    alphabeticalname: Satyr
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Scarecrow
+    alphabeticalname: Scarecrow
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Shadow
+    alphabeticalname: Shadow
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Shambling Mound
+    alphabeticalname: Shambling Mound
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Shield Guardian
+    alphabeticalname: Shield Guardian
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Skeletons
+    alphabeticalname: Skeletons
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Slaadi
+    alphabeticalname: Slaadi
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Specter
+    alphabeticalname: Specter
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Sphinxes
+    alphabeticalname: Sphinxes
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Sprite
+    alphabeticalname: Sprite
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Stirge
+    alphabeticalname: Stirge
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Succubus/Incubus
+    alphabeticalname: Succubus/Incubus
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Tarrasque
+    alphabeticalname: Tarrasque
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Thri-kreen
+    alphabeticalname: Thri-kreen
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Treant
+    alphabeticalname: Treant
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Troglodyte
+    alphabeticalname: Troglodyte
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Troll
+    alphabeticalname: Troll
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Umber Hulk
+    alphabeticalname: Umber Hulk
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Unicorn
+    alphabeticalname: Unicorn
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Vampires
+    alphabeticalname: Vampires
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Water Weird
+    alphabeticalname: Water Weird
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Wight
+    alphabeticalname: Wight
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Will-o'-wisp
+    alphabeticalname: Will-o'-wisp
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Wraith
+    alphabeticalname: Wraith
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Wyvern
+    alphabeticalname: Wyvern
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Xorn
+    alphabeticalname: Xorn
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Yetis
+    alphabeticalname: Yetis
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Yuan-ti
+    alphabeticalname: Yuan-ti
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Yugoloths
+    alphabeticalname: Yugoloths
+    book: 
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
+  - name: Zombies
+    alphabeticalname: Zombies
+    book: 315
+    group: 
+    challenge: 
+    creaturesize: 
+    creaturealignment: 
+    creaturetype: 
+    ac: 0
+    armournotes: 
+    hp: 0
+    hd: 
+    saves: 
+    damagevulnerabilities: 
+    damageresistances: 
+    damageimmunities: 
+    conditionimmunities: 
+    speed: 
+    str: 0
+    dex: 0
+    con: 0
+    intel: 0
+    wis: 0
+    cha: 0
+    senses: 
+    passiveperception: 0
+    languages: 
+    skills: 
+    notes: 
+    actions: 
+    reactions: 
+    legendaryactions: 
